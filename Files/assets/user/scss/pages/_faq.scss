@@ -1,0 +1,87 @@
+/*------------------------
+    Faq Page
+-------------------------*/
+.faq-page-content-area{
+    padding: 120px 0 60px 0;
+    .faq-search-wrapper{
+        text-align: center;
+        border: 2px solid #e5e5e5;
+        padding: 50px 80px 60px 80px;
+        margin-bottom: 68px;
+        .title{
+            font-size: 30px;
+            line-height: 40px;
+            color: #232b37;
+            font-family: $heading-font-2;
+            margin-bottom: 25px;
+        }
+        .faq-search-form{
+            position: relative;
+            .form-element{
+                .input-field{
+                    border-radius: 30px;
+                    padding-right: 170px;
+                    border: 2px solid #e5e5e5;
+                    @include placeholder-color(#b1b7c0);
+                }
+            }
+            .submit-btn{
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 150px;
+                border-radius: 30px;
+            }
+        }
+    }
+    .single-faq-item{
+        position: relative;
+        border: 2px solid #e5e5e5;
+        margin-bottom: 60px;
+        padding: 57px 30px 25px 30px;
+        @include transition($transition);
+        &:hover{
+           .number{
+                background-color: $base-color;
+                color: $white;
+                border-color: $base-color;
+           }
+           border-color: $base-color;
+        }
+        .number{
+            position: absolute;
+            left: 30px;
+            top: -30px;
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            border: 2px solid #e5e5e5;
+            background-color: $white;
+            text-align: center;
+            line-height: 60px;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: $heading-font-2;
+            color: $base-color;
+            @include transition($transition);
+        }
+        .content{
+            .title{
+                color: #232b37;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: $heading-font-2;
+                line-height: 25px;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 24px;
+                color: #7d7c8f;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

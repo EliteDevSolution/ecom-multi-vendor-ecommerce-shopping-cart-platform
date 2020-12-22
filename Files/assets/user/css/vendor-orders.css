@@ -1,0 +1,28 @@
+.sellers-product-content-area .seller-product-wrapper .sellers-product-inner {
+    padding: 0px;
+}
+.sellers-product-content-area .seller-product-wrapper {
+    background-color: #fff;
+}
+.thumb img {
+    width: 70px;
+}
+.sellers-product-content-area .seller-product-wrapper .sellers-product-inner .bottom-content table tbody tr td .action li {
+  margin: 0px;
+}
+li.page-item {
+    display: inline-block;
+}
+
+ul.pagination {
+    width: 100%;
+}
+.product-img img {
+  width: 100%;
+}
+.order-track-page-content {
+  padding: 0px;
+}
+.order-track-page-content .track-order-form-wrapper {
+  margin: 0px 0 25px 0;
+}

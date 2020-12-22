@@ -1,0 +1,206 @@
+/*-----------------------
+    Checkout page
+------------------------*/
+.checkout-page-content-area{
+    padding: 80px 0 44px 0;
+    .notification-area{
+        &:last-child{
+            margin-bottom: 50px;
+        }
+        color: $white;
+        font-size: 14px;
+        font-family: $heading-font-2;
+        background-color: $base-color;
+        margin-bottom: 20px;
+        padding: 30px 40px;
+        border-radius: 6px;
+        a{
+            font-weight: 700;
+            color: $white;
+            font-family: $heading-font-2;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+    .left-content-area{
+        .title{
+            font-size: 30px;
+            line-height: 40px;
+            color: #232b37;
+            font-weight: 400;
+            font-family: $heading-font-2;
+            margin-bottom: 17px;
+        }
+        .form-element{
+            font-family: $heading-font-2;
+            margin-bottom: 30px;
+            &.has-icon{
+                .the-icon{
+                    top: 70px;
+                }
+            }
+            label{
+                color: #838b97;
+                font-weight: 400;
+                &.blank{
+                    min-height: 25px;
+                }
+            }
+            .input-field{
+                border: 2px solid #e5e5e5;
+                border-radius: 6px;
+                @include placeholder-color(#b1b7c0);
+            }
+        }
+        .checkbox-element{
+            font-family: $heading-font-2;
+            .checkbox-inner {
+                color: #232b37;
+                font-weight: 500;
+                .checkmark{
+                    border-color: #e5e5e5;
+                }
+            }
+        }
+        .shipping-details{
+            margin-top: 15px;
+            .title{
+                font-size: 30px;
+                line-height: 40px;
+                color: #232b37;
+                font-weight: 400;
+                font-family: $heading-font-2;
+                margin-bottom: 15px;
+            }
+            .checkbox-element{
+                margin-bottom:15px;
+            }
+            .form-element {
+                &.textarea{
+                    label{
+                        color: #232b37;
+                        font-weight: 500;
+                        font-family: $heading-font-2;
+                    }
+                }
+            }
+        }
+    }
+    .right-content-area{
+        padding-left: 40px;
+        .title{
+            font-size: 30px;
+            line-height: 40px;
+            color: #232b37;
+            font-weight: 400;
+            font-family: $heading-font-2;
+            margin-bottom: 22px;
+        }
+        .checkbox-element{
+            font-family: $heading-font-2;
+            .checkbox-inner {
+                color: #232b37;
+                font-weight: 500;
+                .checkmark{
+                    border-color: #e5e5e5;
+                }
+            }
+        }
+        .btn-wrapper{
+            margin-top: 15px;
+            .submit-btn{
+                width: 265px;
+                border-radius: 6px;
+                font-weight: 12px;
+                letter-spacing: 1px;
+            }
+        }
+        .checkbox-element {
+            &.account{
+                .checkbox-wrapper{
+                    .checkbox-inner{
+                        .base-color{
+                            font-weight: 500;
+                            font-family: $heading-font-2;
+                            color: $base-color;
+                        }
+                    }
+                }
+            }
+        }
+        .credit-card-area{
+            margin-bottom: 18px;
+            .left-content{
+                display: inline-block;
+                padding-top: 7px;
+            }
+            .right-content{
+                display: inline-block;
+                float: right;
+                ul{
+                    li{
+                        display: inline-block;
+                        margin: 0 2px;
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .notify-area{
+            font-size: 14px;
+            font-weight: 400;
+            font-family: $heading-font-2;
+            background-color: $base-color;
+            padding: 30px 40px;
+            border-radius: 6px;
+            color: $white;
+            margin-top: 12px;
+            margin-bottom: 30px;
+        }
+        .order-list{
+            margin-bottom: 30px;
+            li{
+                font-family: $heading-font-2;
+                border-bottom: 1px solid #e5e5e5;
+                padding: 30px 0;
+                &:first-child{
+                    padding-top: 0;
+                }
+                &.shipping{
+                    .single-order-list{
+                        .normal-text{
+                            display: block;
+                            color: #838b97;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .single-order-list{
+                    color: #838b97;
+                    &.title-bold{
+                        font-weight: 500;
+                        color: #232b37;
+                        .right{
+                            font-weight: 400;
+                        }
+                        
+                    }
+                    .right{
+                        float: right;
+                        color: #838b97;
+                    }
+                    &.heading{
+                        color: #232b37;
+                        font-weight: 500;
+                        .right{
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

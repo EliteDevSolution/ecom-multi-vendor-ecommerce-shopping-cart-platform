@@ -1,0 +1,12 @@
+/*---------------------------
+    Speakers Area
+---------------------------*/
+.speakers-area {
+    padding-top: 73px;
+    &.speakder-bg{
+        background-color: #e5fbff;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../img/bg/speakder-bg.jpg);
+    }
+}

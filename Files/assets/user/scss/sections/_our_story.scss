@@ -1,0 +1,49 @@
+/*----------------------
+    Our Story Area
+-----------------------*/
+.our-story-area{
+    padding: 115px 0 96px 0; 
+    .single-our-story-item{
+        text-align: center;
+        font-family: $heading-font-2;
+        &:hover{
+            .thumb{
+                img{
+                    filter: grayscale(100%);
+                }
+            }
+            .conent{
+                .title{
+                    color: $base-color;
+                }
+            }
+        }
+        .thumb{
+            margin-bottom: 25px;
+            img{
+                @include transition($transition);
+            }
+        }
+        .conent{
+            .time{
+                font-size: 18px;
+                color: $base-color;
+                display: block;
+                margin-bottom: 10px;
+            }
+            .title{
+                font-size: 26px;
+                color: #232b37;
+                font-weight: 500;
+                font-family: $heading-font-2;
+                margin-bottom: 17px;
+                @include transition($transition);
+            }
+            p{
+                font-size: 16px;
+                line-height: 26px;
+                color: #838b97;
+            }
+        }
+    }
+}

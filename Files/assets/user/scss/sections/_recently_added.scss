@@ -1,0 +1,67 @@
+/*-------------------------
+    Recently Added
+-------------------------*/
+.recently-added-area{
+    padding-bottom: 80px;
+    &.home-6{
+        padding: 0px 0 80px 0;
+    }
+    &.product-details{
+        padding-bottom: 120px;
+    }
+    .single-new-collection-item{
+        margin-bottom: 0px;
+    }
+    .recently-added-nav-menu{
+        margin-bottom: 35px;
+        ul{
+            position: relative;
+            z-index: 0;
+            &:after{
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                height: 2px;
+                background-color: #f0f0f0;
+                content: '';
+                @include translateY(-50%);
+                z-index: -1;
+            }
+            li{
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #b1b6bd;
+                border: 2px solid #f0f0f0;
+                border-radius: 20px;
+                padding: 10px 40px;
+                display: inline-block;
+                background-color: $white;
+            }
+        }
+    }
+    .recently-added-carousel{
+        .owl-nav div{
+            position: absolute;
+            right: 0;
+            top: -80px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #ebebeb;
+            text-align: center;
+            line-height: 50px;
+            color: #afb6bf;
+            font-size: 16px;
+            @include transition($transition);
+            &:hover{
+                background-color: $base-color;
+                color: $white;
+            }
+            &.owl-prev{
+                right: 70px;
+            }
+        }
+    }
+}

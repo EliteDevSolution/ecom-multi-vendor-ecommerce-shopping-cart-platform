@@ -1,0 +1,26 @@
+/*-------------------------
+    Process Area
+--------------------------*/
+.process-area{
+    &.home-3{
+        padding: 120px 0 80px 0;
+    }
+    padding-top: 80px;
+    .single-process-item-one{
+        border: 2px solid #e5e5e5;
+        text-align: center;
+        padding: 26px 0 22px 0;
+        .title{
+            font-size: 20px;
+            line-height: 30px;
+            color: #232b37;
+            font-family: $heading-font-2;
+        }
+        .details{
+            font-size: 16px;
+            line-height: 26px;
+            color: #838b97;
+            font-family: $heading-font-2;
+        }
+    }
+}

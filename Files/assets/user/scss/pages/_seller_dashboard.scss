@@ -1,0 +1,157 @@
+/*-------------------------
+    Seller Dashboard
+--------------------------*/
+.seller-dashboard-content-area{
+    padding: 120px 0;
+    .dashboard-content-wrapper{
+        font-family: $heading-font-2;
+        border: none;
+        .card-header{
+            background-color: $base-color;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 26px;
+            color: $white;
+            border: none;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .mini-card-wrapper{
+            padding:30px;
+            padding-bottom: 0;
+            .single-mini-card-item{
+                position: relative;
+                padding: 25px 20px 23px 20px;
+                z-index: 0;
+                &.bg-light-blue{
+                    .bg-icon{
+                        color: #1b88a3;
+                    }
+                }
+                &.bg-light-green{
+                    .bg-icon{
+                        color: #4a8336;
+                    }
+                }
+                &.bg-light-orange{
+                    .bg-icon{
+                        color: #cf8a43;
+                    }
+                }
+                &.bg-light-gray{
+                    .bg-icon{
+                        color: #40494b;
+                    }
+                }
+                .bg-icon{
+                    position: absolute;
+                    right: 20px;
+                    top:20px;
+                    font-size: 80px;
+                    line-height: 80px;
+                    z-index: -1;
+                    opacity: .5;
+                }
+                .title{
+                    font-size: 25px;
+                    line-height: 30px;
+                    font-family: $heading-font-2;
+                    font-weight: 400;
+                    color: $white;
+                }
+                .counterup{
+                    color: $white;
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+        }
+        .panel-wrapper{
+            padding: 30px;
+            font-family: $heading-font-2;
+            padding-bottom: 0;
+            .seller-card{
+                margin-bottom: 30px;
+                .sales-cart-area{
+                    padding: 30px 0 30px 0;
+                    background-color: $white;
+                    
+                }
+                .card-body{
+                    background-color: $white;
+                    padding: 18px 20px 16px 20px;
+                    ul{
+                        li{
+                            font-size: 14px;
+                            color: #727c8b;
+                            margin: 8px 0;
+                            .heading{
+                                display: inline-block;
+                                color: #727c8b;
+                                font-family: $heading-font-2;
+                            }
+                            .right{
+                                display: inline-block;
+                                float: right;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.latest-order{
+    margin-bottom: 30px;
+    background-color: $white;
+    
+}
+.seller-dashboard-table{
+    margin-bottom: 0;
+    thead{
+        tr{
+            th{
+                border-top: none;
+                padding-top:5px;
+                font-weight: 500;
+                color: #232b37;
+                border-bottom: 1px solid #ececec;
+            }
+        }
+    }
+    tbody{
+        tr{
+            &:last-child{
+                td{
+                    padding-bottom: 5px;
+                    border-bottom: none;
+                }
+            }
+            td{
+                border-bottom: 1px solid #ececec;
+                font-size: 14px;
+                font-family: $heading-font-2;
+                .base-color{
+                    color: $base-color;
+                }
+            }
+        }
+    }
+}
+.latest-invoice{
+    margin-bottom: 30px;
+    background-color: $white;
+}
+.latest-message{
+    margin-bottom: 30px;
+    background-color: $white;
+    .seller-dashboard-table{
+        tbody{
+            tr{
+                td{
+                    padding: 14px 0 15px 0;
+                }
+            }
+        }
+    }
+}

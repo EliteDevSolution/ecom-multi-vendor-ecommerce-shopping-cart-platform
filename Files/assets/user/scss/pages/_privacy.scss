@@ -1,0 +1,32 @@
+/*-------------------------
+    Privacy Page
+--------------------------*/
+.privacy-page-content-area{
+    padding: 117px 0 115px 0;
+    .privacy-inner-content{
+        .single-text-block{
+            .title{
+                color: #232b37;
+                font-weight:500;
+                font-size: 24px;
+                line-height: 24px;
+                font-family: $heading-font-2;
+
+            }
+            p{
+                font-size: 14px;
+                line-height: 24px;
+                color: #7d7c8f;
+                font-family: $heading-font-2;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .line-separator{
+            display: block;
+            border-bottom: 2px solid #f5f5f5;
+            margin: 35px 0 37px 0;
+        }
+    }
+}

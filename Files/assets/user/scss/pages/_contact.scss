@@ -1,0 +1,96 @@
+/*-------------------
+    Contact Page
+-------------------*/
+.contact-info-area{
+    padding: 120px 0 118px 0;
+    .left-content-area{
+        font-family: $heading-font-2;
+        .inner-section-title{
+            margin-bottom: 35px;
+            .subtitle{
+                font-size: 14px;
+                font-weight: 700;
+                color: $base-color;
+            }
+            .title{
+                color: #232b37;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                font-family: $heading-font-2;
+            }
+        }
+        ul{
+            li{
+                margin-bottom: 25px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                .single-contact-info-item{
+                    position: relative;
+                    min-height: 40px;
+                    .icon{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 6px;
+                        background-color: $base-color;
+                        text-align: center;
+                        line-height: 40px;
+                        color: $white;
+                    }
+                    .content{
+                        padding-left: 60px;
+                        .subtitle{
+                            font-size: 14px;
+                            color: #8892a2;
+                            line-height: 20px;
+                            display: block;
+                            margin-bottom: 0;
+                        }
+                        .title{
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #232b37;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .map-wrapper{
+        #map{
+            height: 376px;
+        }
+    }
+}
+.contact-form-area{
+    padding: 115px 0 120px 0;
+    .contact_form{
+        .form-element{
+            .input-field{
+                border:none;
+                background-color: $white;
+                &.textarea{
+                    min-height: 300px;
+                }
+            }
+        }
+        .btn-wrapper{
+            text-align: center;
+            .submit-btn{
+                width: 218px;
+                border-radius: 30px;
+                font-weight: 14px;
+                letter-spacing: 1px;
+                &:hover{
+                    box-shadow: 0 0 25px 0 rgba($base-color,.50);
+                    background-color: $base-color;
+                }
+            }
+        }
+    }
+}

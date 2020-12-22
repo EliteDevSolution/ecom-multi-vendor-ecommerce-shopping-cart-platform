@@ -1,0 +1,200 @@
+/*----------------------
+    Sidebar 
+-----------------------*/
+
+.sidebar {
+    .sidebar-separator {
+        padding-top: 40px;
+        margin: 0 30px;
+        margin-bottom: 35px;
+        border-bottom: 1px solid #eaeaea;
+        &.category{
+            padding-top: 37px;
+        }
+        &.latest-post{
+            padding-top: 4px;
+        }
+    }
+}
+
+.widget-area {
+    padding: 0px 30px 0px 30px;
+    &.instagram {
+        .instagram-feed {
+            text-align: center;
+            margin-top: 27px;
+            li {
+                display: inline-block;
+                margin: 3px;
+                margin-bottom: 5px;
+                &.margin-bottom-0 {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    &.social {
+        text-align: center;
+        .social-links {
+            margin-top: 25px;
+            li {
+                display: inline-block;
+                margin: 0 2px;
+                a {
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    border-radius: 50%;
+                    border: 1px solid #e3e3e3;
+                    color: #555555;
+                    font-size: 16px;
+                    @include transition($transition);
+                    &:hover {
+                        &.twitter {
+                            background-color: #55acee;
+                            border-color: #55acee;
+                            color: $white;
+                        }
+                        &.pinterest {
+                            background-color: #bd081c;
+                            border-color: #bd081c;
+                            color: $white;
+                        }
+                        &.facebook {
+                            background-color: #3b5999;
+                            border-color: #3b5999;
+                            color: $white;
+                        }
+                        &.instagram {
+                            background-color: #e4405f;
+                            border-color: #e4405f;
+                            color: $white;
+                        }
+                        &.wordpress {
+                            background-color: #0073AA;
+                            border-color: #0073AA;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.category {
+        .categories {
+            margin-top: 15px;
+            li {
+                display: block;
+                padding: 10px 0;
+                border-bottom: 1px solid #eaeaea;
+                &:last-child {
+                    padding-bottom: 0;
+                    border: none;
+                }
+                a {
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #7d7c8f;
+                    @include transition($transition);
+                    &:hover {
+                        color: $base-color;
+                    }
+                    .count {
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+    &.latest-post {
+        padding-bottom: 36px;
+        .single-latest-post {
+            margin-bottom: 18px;
+            margin-top: 25px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            .media {
+                .media-body {
+                    padding-left: 5px;
+                    h5 {
+                        font-size: 16px;
+                        line-height: 20px;
+                        font-weight: 500;
+                        margin-bottom: 0;
+                        @include transition($transition);
+                        font-family: $heading-font-2;
+                        &:hover {
+                            color: $base-color;
+                        }
+                    }
+                    .meta-time {
+                        font-size: 14px;
+                        line-height: 100%;
+                        color: #7d7c8f;
+                    }
+                }
+            }
+        }
+    }
+    &.tags {
+        padding-bottom: 30px;
+        .tags-list {
+            margin-top: 30px;
+            li {
+                display: inline-block;
+                a {
+                    display: inline-block;
+                    color: #7d7c8f;
+                    font-size: 14px;
+                    line-height: 24px;
+                    padding: 7px 13px;
+                    border: 1px solid #eaeaea;
+                    margin: 0 3px;
+                    margin-bottom: 10px;
+                    @include transition($transition);
+                    &:hover {
+                        background-color: $base-color;
+                        color: $white;
+                        border-color: $base-color;
+                    }
+                }
+            }
+        }
+    }
+    .widget-title {
+        text-align: center;
+        h4 {
+            font-size: 28px;
+            line-height: 38px;
+            display: inline-block;
+            font-weight: 700;
+            color: #2e3841;
+            position: relative;
+            font-family: $heading-font-2;
+            &:after {
+                position: absolute;
+                left: -60px;
+                top: 50%;
+                width: 40px;
+                height: 2px;
+                background-color: #ebebeb;
+                content: '';
+                @include translateY(-50%);
+            }
+            &:before {
+                position: absolute;
+                right: -60px;
+                top: 50%;
+                width: 40px;
+                height: 2px;
+                background-color: #ebebeb;
+                content: '';
+                @include translateY(-50%);
+            }
+        }
+    }
+    .widget-body {}
+}

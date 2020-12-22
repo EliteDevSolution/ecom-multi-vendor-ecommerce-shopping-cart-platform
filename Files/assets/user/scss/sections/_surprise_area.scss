@@ -1,0 +1,57 @@
+/*----------------------------
+    Surprise area
+----------------------------*/
+.surprise-area{
+    margin-top: 187px;
+    .surprise-inner{
+        padding: 0px 0 82px 0;
+        .content-area{
+            text-align: center;
+            padding-top: 72px;
+            .heart{
+                font-size: 120px;
+                line-height: 90px;
+                color: #e4494c;
+                margin-bottom: 37px;
+            }
+            .title{
+                color: #232b37;
+                font-size: 70px;
+                line-height: 80px;
+                letter-spacing: -2px;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+        }
+        .video-thumb{
+            position: relative;
+            margin-top: -200px;
+            box-shadow: 0 20px 50px 0 rgba(#000,.2);
+            border-radius:20px;
+            img{
+                border-radius:20px;
+            }
+            .hover{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .video-play-btn{
+                    width: 100px;
+                    height:100px;
+                    line-height: 100px;
+                    color: $base-color;
+                    &:before{
+                        width: 120px;
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+}

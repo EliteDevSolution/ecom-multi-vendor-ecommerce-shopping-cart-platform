@@ -1,0 +1,143 @@
+
+//=Main scss
+/*
+--------------------------
+	Css Indexing
+--------------------------
+** @typography
+--------------------------
+** Global css
+--------------------------
+** Breadcumb Area
+-------------------------- 
+** Preloader
+--------------------------
+** Normalize
+--------------------------
+** Navbar Area
+--------------------------
+** Header Area
+--------------------------
+** Support Bar Area
+--------------------------
+** New Product Area
+--------------------------
+** Ladies Cloth Area
+--------------------------
+** Best Sellers Area
+--------------------------
+** Free Shipping Area
+--------------------------
+** Features One Area
+--------------------------
+** Footer Area
+--------------------------
+** Promotional Area
+--------------------------
+** Brand logo carousel Area
+--------------------------
+** Process Area
+--------------------------
+** Speakers Area
+--------------------------
+** Our Story Area
+--------------------------
+** Trend Seller Area
+--------------------------
+** Recently Added Area
+--------------------------
+** Sidebar Area
+--------------------------
+** Side Sidebar Area
+--------------------------
+** About Page
+--------------------------
+** Category Page
+--------------------------
+** Cart Page
+--------------------------
+** Checkout Page
+--------------------------
+** Product Details Page
+--------------------------
+** Login Page
+--------------------------
+** Signup Page
+--------------------------
+** Blog Page
+--------------------------
+** Blog Details Page
+--------------------------
+** Product Page
+--------------------------
+** Offer Page
+--------------------------
+** Vendor List Page
+--------------------------
+** Seller Dashboard Page
+--------------------------
+** Sellers Products Page
+--------------------------
+** 404 Error Page
+--------------------------
+** Contact Page
+--------------------------
+** Faq Page
+--------------------------
+** Privacy Page
+--------------------------
+** Affiliate Page
+--------------------------
+** Track Order Page
+--------------------------
+** Partner Page
+--------------------------
+
+*/
+@import "main/_variables";
+@import "main/_mixins";
+@import "main/_global";
+@import "main/_normalize";
+//=Section scss
+@import "sections/_navbar";
+@import "sections/_header";
+@import "sections/_support_bar";
+@import "sections/_new_product_area";
+@import "sections/_ladies_cloths";
+@import "sections/_best_sellers";
+@import "sections/_free_shipping_area";
+@import "sections/_feature_one";
+@import "sections/_footer";
+@import "sections/_promotional_area";
+@import "sections/_brand_logo_carousel";
+@import "sections/_process_area";
+@import "sections/_speakers_area";
+@import "sections/_surprise_area";
+@import "sections/_our_story";
+@import "sections/_trend_seller";
+@import "sections/_recently_added";
+@import "sections/_sidebar";
+@import "sections/_slide_sidebar";
+//=Pages scss
+@import "pages/_about";
+@import "pages/_category";
+@import "pages/_cart";
+@import "pages/_checkout";
+@import "pages/_product_details";
+@import "pages/_login";
+@import "pages/_signup";
+@import "pages/_blog";
+@import "pages/_blog_details";
+@import "pages/_product_upload";
+@import "pages/_offers";
+@import "pages/_invoice";
+@import "pages/_vendor_list";
+@import "pages/_seller_dashboard";
+@import "pages/_sellers_products";
+@import "pages/_error_404";
+@import "pages/_contact";
+@import "pages/_faq";
+@import "pages/_privacy";
+@import "pages/_affiliate";
+@import "pages/_track_order";
+@import "pages/_partner";

@@ -1,0 +1,35 @@
+/*---------------------
+    Partners Page
+----------------------*/
+.partner-logo-content{
+    padding: 120px 0;
+    .partner-logo-wrapper{
+        border-top: 1px solid #e5e5e5;
+        &:first-child{
+            border-top: none;
+        }
+        .partner-logos{
+            border-right: 1px solid #e5e5e5;
+            &:last-child{
+                border-right: none;
+            }
+            .single-logo-item{
+                text-align: center;
+                padding: 50px 0;
+                &:hover{
+                    a{
+                        img{
+                            filter: grayscale(0%);
+                        }
+                    }
+                }
+                a{
+                    img{
+                        filter: grayscale(100%);
+                        @include transition($transition);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,133 @@
+/*-------------------------
+    Sellers Products
+-------------------------*/
+.sellers-product-content-area{
+    padding: 120px 0;
+    .seller-product-wrapper{
+        background-color: #f3f5f5;
+        .seller-panel{
+            .card-header{
+                background-color: $base-color;
+                border: none;
+                color: $white;
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 600;
+                font-family: $heading-font-2;
+                letter-spacing: 1px;
+            }
+        }
+        .sellers-product-inner{
+            padding: 30px;
+            .top-content{
+                margin-bottom: 30px;
+                .left-content{
+                    display: inline-block;
+                    .boxed-btn{
+                        width: 230px;
+                        height: 50px;
+                        line-height: 50px;
+                        border-radius: 30px;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        &:hover{
+                            box-shadow: 0 0 30px 0 rgba($base-color,.50);
+                        }
+                    }
+                }
+                .right-content{
+                    display: inline-block;
+                    float: right;
+                    .icon-box{
+                        display: inline-block;
+                        width: 50px;
+                        height: 50px;
+                        color: #727c8b;
+                        line-height: 50px;
+                        text-align: center;
+                        border: 2px solid #e2e4e4;
+                        border-radius: 50%;
+                        @include transition($transition);
+                        &:hover{
+                            background-color: $base-color;
+                            border-color: $base-color;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            .bottom-content{
+                .dataTables_info{
+                    display: none;
+                }
+                table{
+                    background-color: $white;
+                    font-family: $heading-font-2;
+                    thead{
+                        tr{
+                            th{
+                                background-color: $base-color;
+                                border: none;
+                                color: $white;
+                                text-transform: uppercase;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                            td{
+                                color: #727c8b;
+                                font-size: 14px;
+                                padding-top: 20px;
+                                &.padding-top-40{
+                                    padding-top: 40px;
+                                }
+                                .single-product-item{
+                                    position: relative;
+                                    min-height: 70px;
+                                    .thumb{
+                                        position: absolute;
+                                        left: 0;
+                                        top: 0;
+                                    }
+                                    .content{
+                                        padding-left: 90px;
+                                        padding-top: 30px;
+                                        .title{
+                                            font-size: 14px;
+                                            color: #727c8b;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                }
+                                .base-color{
+                                    color: $base-color;
+                                }
+                                .action{
+                                    li{
+                                        display: inline-block;
+                                        margin: 0 5px;
+                                        cursor: pointer;
+                                        &:last-child{
+                                            a{
+                                                color: #f00;
+                                            }
+                                        }
+                                        a{
+                                            color: #727c8b;
+                                            font-size: 14px;
+                                            line-height: 24px;
+                                            @include transition($transition);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

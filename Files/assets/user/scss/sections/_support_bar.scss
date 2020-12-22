@@ -1,0 +1,411 @@
+/*---------------------
+    Support Bar
+---------------------*/
+.support-bar-area{
+    background-color: #232b37;
+    border-bottom: 1px solid rgba($white,.06);
+    &.bg-orange{
+        border-bottom: 1px solid #f6795b;
+        .left-content-area{
+            .language-picker,
+            .currency-picker{
+                &:hover{
+                    color: $white;
+                }
+                .slang-wrap{
+                    &:hover{
+                        .name{
+                            color: $base-color-2;
+                        }
+                    }
+                    .name{
+                        color: #ffd3c8;
+                    }
+                }
+                .default{
+                    &:hover{
+                        .name{
+                            color: $white;
+                        }
+                    }
+                    .all-lang{
+                        li{
+                            .name{
+                                color: #a2aab6;
+                                &:hover{
+                                    color: $base-color-2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .right-content-area{
+            ul{
+                li{
+                    color: #ffd3c8;
+                    font-family: $heading-font-2;
+                    &:hover{
+                        color: #ffd3c8;
+                        opacity: .8;
+                    }
+                    a{
+                        color: #ffd3c8;
+                        &:hover{
+                            color: #ffd3c8;
+                            opacity: .8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .left-content-area{
+        display: inline-block;
+        .currency-picker{
+            display: inline-block;
+            padding-left: 20px;
+            .slang-wrap{
+                cursor: pointer;
+                &:hover{
+                    .name{
+                        color: $base-color;
+                    }
+                }
+                .name{
+                    font-size: 14px;
+                    color: #a2aab6;
+                    @include transition($transition);
+                
+                    i{
+                        padding-left: 2px;
+                    }
+                }
+            }
+            .default{
+                display: inline-block;
+                position: relative;
+                padding: 20px 0;
+                &:hover{
+                    .all-lang{
+                        visibility: visible;
+                        opacity: 1;
+                        height: fit-content;
+                    }
+                }
+                .all-lang{
+                    background-color: $white;
+                    padding: 5px 10px;
+                    position: absolute;
+                    left: 0;
+                    top: 45px;
+                    z-index: 2;
+                    width: 80px;
+                    visibility: hidden;
+                    opacity: 0;
+                    height: 0;
+                    @include transition(height .5s ease);
+                    li{
+                        display: block;
+                        margin: 5px 0;
+                        
+                    }
+                }
+            }
+        }
+        .language-picker{
+            display: inline-block;
+            .slang-wrap{
+                position: relative;
+                min-height: 20px;
+                cursor: pointer;
+                &:hover{
+                    .name{
+                        color: $base-color;
+                    }
+                }
+                .img{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+                .name{
+                    padding-left: 30px;
+                    font-size: 14px;
+                    color: #a2aab6;
+                    @include transition($transition);
+                
+                    i{
+                        padding-left: 2px;
+                    }
+                }
+            }
+            .default{
+                display: inline-block;
+                position: relative;
+                padding: 20px 0;
+                &:hover{
+                    .all-lang{
+                        visibility: visible;
+                        opacity: 1;
+                        height: fit-content;
+                    }
+                }
+                .all-lang{
+                    background-color: $white;
+                    padding: 5px 10px;
+                    position: absolute;
+                    left: 0;
+                    top: 45px;
+                    z-index: 2;
+                    width: 100px;
+                    visibility: hidden;
+                    opacity: 0;
+                    height: 0;
+                    @include transition(height .5s ease);
+                    li{
+                        display: block;
+                        margin: 5px 0;
+                        
+                    }
+                }
+            }
+        }
+    }
+    .right-content-area{
+        display: inline-block;
+        float: right;
+        padding: 20px 0;
+        ul{
+            li{
+                display: inline-block;
+                color: #999fa9;
+                font-size: 14px;
+                margin: 0 10px;
+                @include transition($transition);
+                cursor: pointer;
+                &:hover{
+                    color: #2a9cf5;
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+                a{
+                    color: #999fa9;
+                    @include transition($transition);
+                    &:hover{
+                        color: #2a9cf5;
+                    }
+                }
+            }
+        }
+    }
+}
+.support-bar-two{
+    border-bottom: 1px solid #f6795b;
+    &.bg-white {
+        border-bottom:none;
+        &.home-4{
+            margin-bottom: 13px;
+        }
+    }
+    &.home-6{
+        border-top: 1px solid #cdd0d5;
+        .right-content{
+            ul{
+                li{
+                    .support-search-area{
+                        .search-form{
+                            position: relative;
+                            .form-element{
+                                
+                                &.has-icon{
+                                    .the-icon{
+                                        &:after{
+                                            color: $base-color;
+                                        }
+                                        .category{ 
+                                            color: $base-color;
+                                            option {
+                                                color: $base-color;
+                                                background-color: $white;
+                                            }
+                                        }
+                                    }
+                                    .select2-container--default {
+                                        .select2-selection--single{
+                                            .select2-selection__rendered{
+                                                color: #a2aab6;
+                                            }
+                                        }
+                                    }
+                                }
+                                .input-field{
+                                    color: #a2aab6;
+                                    border: 2px solid $base-color;
+                                    @include placeholder-color(#a2aab6);
+                                }
+                            }
+                            .submit-btn{
+                                border: 2px solid $base-color;
+                                color: $base-color;
+                                &:hover{
+                                    background-color: $base-color;
+                                    color: $white
+                                }
+                            }
+                        }
+                    }
+                    .single-support-info-item{
+                        position: relative;
+                        .icon{
+                            color: $base-color;
+                        }
+                        .content{
+                            .title{
+                                color: $base-color;
+                            }
+                            .details{
+                                color: #a2aab6;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    padding: 25px 0 17px 0;
+    .left-content{
+        display: inline-block;
+        margin-top: 6px;
+        .logo {
+            &.main-logo{}
+        }
+    }
+    .right-content{
+        display: inline-block;
+        float: right;
+        ul{
+            li{
+                display: inline-block;
+                margin:  0 18px;
+                &:last-child{
+                    margin-right: 0;
+                }
+                .support-search-area{
+                    position: relative;
+                    top: -10px;
+                    .search-form{
+                        position: relative;
+                        .form-element{
+                            &:focus{
+                                outline: none;
+                            }
+                            .select2-container--default {
+                                width: 100px !important;
+                                box-shadow: none;
+                                
+                                .select2-selection--single{
+                                    border: none;
+                                    background-color:unset;
+                                    border-radius:none !important;
+                                    .select2-selection__rendered{
+                                        color: #ffd3c8;
+                                    }
+                                    &:focus{
+                                        outline: none;
+                                    }
+                                }
+                                .select2-selection__arrow{
+                                    display: none;
+                                }
+                            }
+                            &.has-icon{
+                                .the-icon{
+                                    right: 70px;
+                                    &:after{
+                                        position: absolute;
+                                        right: -15px;
+                                        top: 13px;
+                                        @include translateY(-50%);
+                                        @include fontawesomeIcon('\f067');
+                                        font-size: 10px;
+                                        color: #ffd3c8;
+                                    }
+                                    .category{ 
+                                        font-size: 12px;
+                                        background-color: transparent;
+                                        color: #ffd3c8;
+                                        border: none;
+                                        font-weight: 500;
+                                        font-family: $heading-font-2;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                            .input-field{
+                                width: 414px;
+                                height: 40px;
+                                background-color: transparent;
+                                color: #ffd3c8;
+                                border: 2px solid #f6795b;
+                                border-radius: 30px;
+                                @include placeholder-color(#ffd3c8);
+                                font-size: 12px;
+                                font-family: $heading-font-2;
+                                font-weight: 500;
+                            }
+                        }
+                        .submit-btn{
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            background-color: transparent;
+                            border: 2px solid #f6795b;
+                            border-radius: 50%;
+                            width: 40px;
+                            height: 40px;
+                            color: #ffd3c8;
+                            @include transition($transition);
+                            line-height: 35px;
+                            font-size: 12px;
+                            font-family: $heading-font-2;
+                            &:hover{
+                                background-color: $base-color-2;
+                            }
+                        }
+                    }
+                }
+                .single-support-info-item{
+                    position: relative;
+                    .icon{
+                        font-size: 12px;
+                        color: #ffd3c8;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                    }
+                    .content{
+                        padding-left: 20px;
+                        .title{
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: #ffd3c8;
+                            font-family: $heading-font-2;
+                            margin-bottom: 0;
+                        }
+                        .details{
+                            color: #ffd3c8;
+                            font-size: 12px;
+                            font-family: $heading-font-2;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

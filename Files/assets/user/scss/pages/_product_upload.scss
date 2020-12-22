@@ -1,0 +1,25 @@
+/*--------------------------
+    Product Upload
+---------------------------*/
+.product-upload-area{
+    padding: 120px 0;
+}
+.product-upload-form{
+    .form-element{
+        .input-field{
+            border: 2px solid #f0f0f0;
+        }
+    }
+    .btn-wrapper{
+        display: block;
+        text-align: center;
+        .submit-btn{
+            width: 230px;
+            border-radius: 30px;
+            &:hover{
+                box-shadow: 0 0 25px 0 rgba($base-color,.50);
+                background-color: $base-color;
+            }
+        }
+    }
+}

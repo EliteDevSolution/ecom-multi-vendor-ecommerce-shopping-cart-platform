@@ -1,0 +1,24 @@
+/*---------------------------
+    Brand Logo Carousel
+-----------------------------*/
+.brand-logo-carousel-area-one{
+    margin: 0 30px;
+    border: 2px solid #e5e5e5;
+    border-radius: 6px;
+    padding: 80px 0;
+    .brand-logo-carousel-one{
+        padding: 0 15px;
+        .single-brang-logo-carousel-one-item{
+            img{
+                filter:grayscale(100%);
+                @include transition($transition);
+                padding: 0 20px;
+                border: 1px solid #e5e5e5;
+                border-radius: 6px;
+                &:hover{
+                    filter: grayscale(0%);
+                }
+            }
+        }
+    }
+}

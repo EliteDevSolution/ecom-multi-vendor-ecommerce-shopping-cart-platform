@@ -1,0 +1,251 @@
+/*-------------------------
+    Category block area
+--------------------------*/
+.category-block-area{
+    padding: 120px 0 50px 0;
+    .single-cateogy-block-item{
+        text-align: center;
+        border: 2px solid #e5e5e5;
+        padding: 60px 0px 60px 0px;
+        margin-bottom: 30px;
+        @include transition($transition);
+        &:hover{
+            background-color: $base-color;
+            border-color: $base-color;
+            color: $white;
+            .title{
+                color: $white;
+            }
+            .icon{
+                color: $white;
+                @include transform(rotateY(360deg));
+            }
+        }
+        .icon{
+            font-size: 100px;
+            line-height: 50px;
+            margin-bottom: 47px;
+            color: $base-color;
+            &.puzzle{
+                font-size: 140px;
+            }
+            &.laptop{
+                font-size: 120px;
+            }
+            &.bathtub{
+                font-size: 110px;
+            }
+            &.first-aid{
+                font-size: 115px;
+            }
+            &.watermelon{
+                font-size: 180px;
+            }
+            @include transition($transition);
+        }
+        .title{
+            font-size: 16px;
+            color: #7a8591;
+            line-height: 26px;
+            font-weight: 700;
+            text-transform: uppercase;
+            @include transition($transition);
+        }
+    }
+    
+}
+.category-content-area{
+    padding-bottom: 90px;
+    &.search-page{
+        padding: 120px 0 90px 0;
+    }
+    .category-sidebar{
+        margin-bottom: 30px;
+        .category-filter-widget{
+            border: 2px solid #f0f0f0;
+            border-radius: 6px;
+            padding: 36px 40px 35px 40px;
+            .title{
+                font-size: 12px;
+                font-weight: 700;
+                color: $base-color;
+                font-family: $heading-font-2;
+                text-transform: uppercase;
+                .right{
+                    float: right;
+                }
+            }
+            .cat-list{
+                li{
+                    display: block;
+                    font-size: 12px;
+                    font-weight: 700;
+                    color: #bbc4d1;
+                    font-family: $heading-font-2;
+                    text-transform: uppercase;
+                    margin: 20px 0;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                    a{
+                        color: #bbc4d1;
+                        @include transition($transition);
+                        &:hover{
+                            color: $base-color;
+                        }
+                    }
+                    .right{
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+    .category-compare{
+        border: 2px solid #f0f0f0;
+        padding: 40px 40px 40px 40px;
+        border-radius: 6px;
+        .title{
+            font-family: $heading-font-2;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: $base-color;
+            letter-spacing: 2px;
+        }
+        .btn-wrapper{
+            margin-top: 13px;
+            .boxed-btn{
+                width:100%;
+                border-radius: 30px;
+                text-transform: uppercase;
+                font-family: $heading-font-2;
+                font-size: 12px;
+                letter-spacing: 2px;
+                &:hover{
+                    background-color: $secondary-color;
+                }                
+            }
+        }
+        .compare-list{
+            li{
+                border-bottom: 2px solid #f6f6f6;
+                padding-bottom: 10px;
+                margin-top: 22px;
+                &:last-child{
+                    border-bottom: none;
+                }
+                .single-compare-item{
+                    position: relative;
+                    .title{
+                        font-family: $heading-font-2;
+                        color: #bbc4d1;
+                        font-size: 14px;
+                        line-height: 24px;
+                        font-weight: 500;
+                        text-transform: none;
+                        padding-right: 10px;
+                        letter-spacing: 0;
+                    }
+                    .close-btn{
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        color: $base-color;
+                        font-weight: 400;
+                        font-family: $heading-font-2;
+                    }
+                }
+            }
+        }
+    }
+    
+    .right-content-area{
+        .top-content{
+            position: relative;
+            z-index: 0;
+            margin-bottom: 30px;
+            &:after{
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                height: 2px;
+                background-color: #f0f0f0;
+                content: '';
+                @include translateY(-50%);
+                z-index: -1;
+            }
+            .left-conent{
+                display: inline-block;
+                .cat{
+                    width: 160px;
+                    height: 50px;
+                    border: 2px solid #f0f0f0;
+                    color: #b1b6bd;
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    display: inline-block;
+                    text-align: center;
+                    line-height: 50px;
+                    border-radius: 25px;
+                    background-color: $white;
+                }
+            }
+            .right-content{
+                display: inline-block;
+                float: right;
+                ul{
+                    li{
+                        display: inline-block;
+                        margin: 0 8px;
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                        .form-element{
+                            display: inline-block;
+                            width: 160px;
+                            .select2-container--default{
+                                .select2-selection--single{
+                                    height: 50px;
+                                    border-radius: 30px;
+                                    border: 2px solid #f0f0f0;
+                                    &:focus{
+                                        outline: none;
+                                    }
+                                    .select2-selection__rendered{
+                                        line-height: 50px;
+                                        text-align: center;
+                                        text-transform: uppercase;
+                                        color: #b1b6bd;
+                                        font-size: 14px;
+                                        font-weight: 700;
+                                    }
+                                    .select2-selection__arrow{
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                        &.icon{
+                            &.active,&:hover{
+                                background-color: $base-color;
+                                color: $white;
+                            }
+                            background-color: #ebebeb;
+                            color: #afb6bf;
+                            cursor: pointer;
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            text-align: center;
+                            line-height: 50px;
+                            @include transition($transition);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

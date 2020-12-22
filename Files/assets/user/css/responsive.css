@@ -1,0 +1,3320 @@
+
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+
+    .single-promotional-item .img-wrapper:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        content: '';
+        z-index: 1;
+    }
+    .promotional-banner-area-three .img-wrapper {
+        position: relative;
+        z-index: 0;
+    }
+    .promotional-banner-area-two .img-wrapper,
+    .promotional-banner-area-four .img-wrapper{
+        z-index: 0;
+    }
+    .promotional-banner-area-three .img-wrapper .hover,
+    .promotional-banner-area-two .img-wrapper .hover,
+    .promotional-banner-area-four .img-wrapper .hover {
+        z-index: 2;
+    }
+    .promotional-banner-area-three .img-wrapper:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.2);
+        content: '';
+    }
+    .promotional-banner-area-two .img-wrapper:after,
+    .promotional-banner-area-four .img-wrapper:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.2);
+        content: '';
+    }
+    .promotional-banner-area-four .img-wrapper .hover .subtitle{
+        color: #e5e5e5;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .title{
+        color: #fff;
+    }
+}
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 45px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px 10px;
+        position: relative;
+    }
+    .header-area .header-inner .title {
+        font-size: 65px;
+        line-height: 70px;
+        margin-bottom: 18px;
+    }
+    .header-area .header-inner p {
+        font-size: 18px;
+    }
+    .header-area .header-inner .subtitle {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .countdown-area ul li {
+        margin: 0 2px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .subtitle {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .title {
+        font-size: 65px;
+        line-height: 75px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .single-featured-one-item .inner-item .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .single-featured-one-item .inner-item .subtitle {
+        font-size: 14px;
+    }
+    .footer-arae-one .footer-widget .widget-title .title {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .footer-arae-one .footer-widget.about .widget-body .contact-info-list li .single-contact-info .content .details {
+        word-break: break-all;
+    }
+    .single-promotional-item .img-wrapper .hover .title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .single-promotional-item .img-wrapper .hover .btn-wrapper .boxed-btn {
+        width: 130px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .single-promotional-item .img-wrapper:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        content: '';
+        z-index: 1;
+    }
+    .promotional-banner-area-three .img-wrapper {
+        position: relative;
+        z-index: 0;
+    }
+    .promotional-banner-area-two .img-wrapper,
+    .promotional-banner-area-four .img-wrapper{
+        z-index: 0;
+    }
+    .promotional-banner-area-three .img-wrapper .hover,
+    .promotional-banner-area-two .img-wrapper .hover,
+    .promotional-banner-area-four .img-wrapper .hover {
+        z-index: 2;
+    }
+    .promotional-banner-area-three .img-wrapper:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.3);
+        content: '';
+    }
+    .promotional-banner-area-two .img-wrapper:after,
+    .promotional-banner-area-four .img-wrapper:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.3);
+        content: '';
+    }
+    .promotional-banner-area-four .img-wrapper .hover .subtitle{
+        color: #e5e5e5;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .title{
+        color: #fff;
+    }
+    .single-promotional-item .img-wrapper .hover {
+        right: -20px;
+    }
+    .single-promotional-item.left-text .img-wrapper .hover {
+        width: 335px;
+    }
+    .promotional-banner-area-three .img-wrapper .hover .subtitle {
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+    .promotional-banner-area-three .img-wrapper .hover .title,
+    .promotional-banner-area-two .img-wrapper .hover .title {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .promotional-banner-area-two .img-wrapper .hover {
+        width: 450px;
+    }
+    .promotional-banner-area-two .img-wrapper .hover p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .promotional-banner-area-two .img-wrapper .hover .btn-wrapper .boxed-btn {
+        width: 220px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .title {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .subtitle {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .btn-wrapper {
+        margin-top: 30px;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .btn-wrapper .boxed-btn {
+        width: 200px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .filter-area-menu-home-four .nav-tabs .nav-item .nav-link {
+        margin: 0 25px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .bottom-content .title {
+        font-size: 60px;
+        line-height: 35px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .bottom {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .top {
+        font-size: 120px;
+        line-height: 100px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .left .title {
+        font-size: 200px;
+        line-height: 139px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover {
+        background-color: rgba(0,0,0,0.1);
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right {
+        display: inline-block;
+        float: none;
+        position: relative;
+        top: -50px;
+    }
+    .single-rated-box-one .content {
+        padding: 20px 0 25px 140px;
+    }
+    .single-offer-item-wide .content .title {
+        font-size: 26px;
+    }
+    .about-content-area .right-content-area {
+        padding: 114px 40px 120px 70px;
+    }
+    .about-content-area .right-content-area .title {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .about-content-area .right-content-area .btn-wrapper .boxed-btn {
+        width: 180px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .about-content-area .right-content-area {
+        padding: 114px 40px 82px 70px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .menga-menu-page-links li a {
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+    .product-details-content-area .left-content-area .product-deails-thumb li img {
+        width: 130px;
+    }
+    .signup-page-wrapper .right-contnet-area .bottom-content .login-form .btn-wrapper .submit-btn {
+        width: 130px;
+    }
+    .seller-dashboard-content-area .dashboard-content-wrapper .mini-card-wrapper .single-mini-card-item .title {
+        font-size: 20px;
+    }
+    .seller-dashboard-content-area .dashboard-content-wrapper .mini-card-wrapper .single-mini-card-item .counterup {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .seller-dashboard-content-area .dashboard-content-wrapper .card-header {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .seller-dashboard-content-area .dashboard-content-wrapper .panel-wrapper .seller-card .card-body ul li {
+        font-size: 13px;
+    }
+    .latest-invoice table {
+        display: block;
+    }
+    .affiliate-link-content-area .left-content-area .bottom-content .top-content ul li .affliate-link .form-element .input-field {
+        width: 360px;
+    }
+    .affiliate-link-content-area .left-content-area .bottom-content .bottom-content ul li .boxed-btn {
+        width: 240px;
+    }
+    .faq-page-content-area .faq-search-wrapper {
+        padding: 50px 60px 60px 60px;
+    }
+    .order-track-page-content .track-order-form-wrapper .track-order-form .submit-btn {
+        width: 200px;
+    }
+    .order-track-page-content .order-track-tab-nav .left-content .nav-tabs .nav-item .nav-link {
+        padding: 13px 15px;
+    }
+    .how-it-works-area .single-coin-box .icon {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        left: 30px;
+    }
+    .how-it-works-area .single-coin-box .content {
+        padding-left: 90px;
+    }
+    .how-it-works-area .single-coin-box {
+        padding: 40px 30px 15px 30px;
+    }
+    .how-it-works-area .single-coin-box .content h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blog-page-content-area .single-our-story-item .conent .title {
+        font-size: 23px;
+    }
+    .login-page-content-area .login-page-wrapper {
+        padding: 72px 40px 80px 40px;
+    }
+    .login-page-content-area .left-content-area .bottom-content .right-content ul li a {
+        width: 180px;
+    }
+    .single-promotional-item.left-text.top-100 .img-wrapper {
+        height: 525px;
+    }
+}
+
+@media only screen  and (max-width: 991px) {
+  .popcat-carousel {
+      margin-top: 101px;
+  }
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-area .nav-container {
+        position: relative;
+    }
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 109px;
+        background: #232B37;
+        z-index: 9;
+        left: 0;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+        border: 0;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item {
+        color: #fff;
+    }
+    .dropdown-item {
+        background: #232b37;
+        color: #fff;
+        border: 0;
+    }
+
+    .navbar-area {
+        top: 0;
+        height: 130px;
+    }
+
+    .logo-wrapper.navbar-brand {
+        padding-top: 0;
+    }
+
+    .logo-wrapper.navbar-brand {
+        padding-top: 0;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        line-height: 35px;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        border: none;
+    }
+    .navbar-area.nav-fixed .navbar-collapse {
+        top: 109px;
+    }
+    .support-bar-area .left-content-area {
+        display: block;
+        text-align: center;
+    }
+
+    .support-bar-area .left-content-area .language-picker .default,.support-bar-area .left-content-area .currency-picker .default {
+        padding-bottom: 0;
+    }
+    .support-bar-area .left-content-area {
+        display: block;
+        text-align: center;
+    }
+
+    .support-bar-area .left-content-area .language-picker .default,.support-bar-area .left-content-area .currency-picker .default {
+        padding-bottom: 0;
+    }
+
+    .support-bar-area .right-content-area {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .logo-wrapper.navbar-brand {
+        padding-top: 0;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu.show .mega-menu-wrapper {
+        position: initial;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container {
+        background-color: #232b37;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .title {
+        color: #fff;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns {
+        margin-bottom: 30px;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .menga-menu-page-links li a {
+        color: #e5e5e5;
+    }
+    .single-new-collection-item .thumb img {
+        width: 100%;
+    }
+    .ladies-cloths-area:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        content: '';
+        z-index: -1;
+    }
+
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .title {
+        color: #fff;
+    }
+
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content p {
+        color: #e5e5e5;
+    }
+    .ladies-cloths-area{
+        z-index: 0;
+    }
+    .single-featured-one-item {
+        margin-bottom: 60px;
+    }
+
+    .feature-one-area {
+        padding-bottom: 60px;
+    }
+    .footer-widget {
+        margin-bottom: 40px;
+    }
+
+    .footer-arae-one .footer-top-one {
+        padding-bottom: 60px;
+    }
+    .footer-arae-one .footer-widget.about .widget-body .contact-info-list li .single-contact-info .content .details{
+        display: block;
+    }
+    .single-promotional-item {
+        margin-bottom: 30px;
+    }
+
+    .promotional-area-two {
+        margin-bottom: 0;
+    }
+
+    .promotional-center-area {
+        margin-top: 0;
+    }
+    .support-bar-two .left-content {
+        display: block;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .support-bar-two .left-content {
+        display: block;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .support-bar-two .right-content ul li .support-search-area .search-form {display: none;}
+
+    .support-bar-two .right-content {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 9px;
+    }
+
+    .support-bar-two .right-content ul li .single-support-info-item {
+        text-align: left;
+    }
+    .bg-orange.navbar-area .logo-wrapper.navbar-brand  {
+        display: none;
+    }
+    .bg-orange.navbar-area{
+        top: 0;
+        height: 90px;
+    }
+    .bg-orange.navbar-area .navbar-collapse{
+        top: 65px;
+        background: #F45832;
+    }
+    .bg-orange.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container{
+        background: #F45832;
+    }
+    .bg-orange.navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-item{
+        background: #F45832;
+    }
+    .header-area-three {
+        z-index: 0;
+    }
+
+    .header-area-three:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.3);
+        content: '';
+        z-index: -1;
+    }
+
+    .header-area-three .header-inner .title {
+        color: #fff;
+    }
+
+    .header-area-three .header-inner p {
+        color: #e6e6e6;
+    }
+
+    .header-area-three .header-inner .btn-wrapper .boxed-btn.blank {
+        color: #e5e5e5;
+    }
+    .process-area .single-process-item-one {
+        display: block;
+        width: 100%;
+    }
+
+    .single-process-item-one.border-left-none.border-right-none {
+        border-right: 2px solid #e5e5e5 !important;
+    }
+
+    .single-process-item-one.border-left-none {
+        margin-bottom: 30px;
+    }
+    .banner-add-area .banner-inner-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .best-seller-area-five {
+        padding-top: 50px;
+    }
+    .desktop-none{
+        display: block;
+    }
+    .support-bar-two.bg-white.home-4,
+    .navbar-area.bg-wite.home-4 .right-btn-wrapper{
+        display: none;
+    }
+    .navbar-area.home-4 .logo-wrapper.navbar-brand .mobile-logo {
+        display: block;
+        padding-top: 20px;
+    }
+    .home-4.navbar-area {
+        top: 0;
+        height: 160px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .home-4.navbar-area .navbar-collapse{
+        background-color: #fff;
+        top: 145px;
+    }
+    .home-4.navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item{
+        background-color: #fff;
+        color: #525252;
+    }
+
+    .home-4.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container{
+        background-color: #fff;
+    }
+    .home-4.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .title{
+        color: #242424;
+    }
+    .home-4.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .menga-menu-page-links li a{
+        color: #737286;
+    }
+    .navbar-area.bg-wite.home-4 .navbar-collapse{
+        height: 0;
+        overflow: hidden;
+        transition: height .5s ease;
+    }
+    .navbar-area.bg-wite.home-4 .navbar-collapse.show{
+       height: fit-content;
+    }
+    .navbar-area.bg-wite.home-4 .right-btn-wrapper.desktop-none{
+        display: block;
+    }
+    .home-4.navbar-area .nav-container {
+        padding-bottom: 20px;
+    }
+    .promotional-banner-area-two .img-wrapper {
+        z-index: 0;
+    }
+
+    .promotional-banner-area-two .img-wrapper:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.2);
+        content: '';
+        z-index: 1;
+    }
+
+    .promotional-banner-area-two .img-wrapper .hover {
+        z-index: 2;
+    }
+    .promotional-banner-area-three .img-wrapper .hover {
+        background-color: rgba(0,0,0,.2);
+    }
+
+    .promotional-banner-area-three .img-wrapper img {
+        width: 100%;
+    }
+    .promotional-banner-area-four .img-wrapper {
+        z-index: 0;
+    }
+
+    .promotional-banner-area-four .img-wrapper:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.3);
+        content: '';
+        z-index: 1;
+    }
+
+    .promotional-banner-area-four .img-wrapper .hover {
+        z-index: 2;
+    }
+
+    .promotional-banner-area-four .img-wrapper .hover .subtitle {
+        color: #e5e5e5;
+        margin-bottom: 15px;
+    }
+
+    .promotional-banner-area-four .img-wrapper .hover .title {
+        color: #fff;
+    }
+    .home-4.navbar-area.nav-fixed {
+        background-color: #fff;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .filter-area-menu-home-four .nav-tabs .nav-item .nav-link {
+        margin: 0 0px;
+    }
+    .navbar-area.home-4.nav-fixed .logo-wrapper.navbar-brand .mobile-logo{
+        display: none;
+    }
+    .nav-fixed.home-4.navbar-area {
+        top: 0;
+        height: 90px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .nav-fixed.navbar-area.bg-wite.home-4 .navbar-collapse.show {
+        top: 82px;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-top: none;
+    }
+    .navbar-area.bg-wite.home-4.nav-fixed .navbar-collapse .navbar-nav .nav-item.active .nav-link,
+    .navbar-area.bg-wite.home-4.nav-fixed .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        color: #242424;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right {
+        display: inline-block;
+        float: none;
+        position: relative;
+        top: -50px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .left .title {
+        font-size: 200px;
+        line-height: 100px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .bottom-content .title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .top {
+        font-size: 118px;
+        line-height: 80px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .bottom {
+        font-size: 54px;
+        line-height: 53px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .navbar-area.bg-wite.home-5 .navbar-collapse{
+        height: 0;
+        transition: height .3s ease-in;
+        overflow: hidden;
+    }
+    .navbar-area.bg-wite.home-5 .navbar-collapse.show {
+        height: fit-content;
+    }
+    .home-5.navbar-area .navbar-collapse{
+        background-color: #fff;
+    }
+    .home-5.navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item{
+        background-color: #fff;
+        color: #737286;
+    }
+    .home-5.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container{
+        background-color: #fff;
+    }
+    .home-5.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .menga-menu-page-links li a{
+        color: #737286;
+    }
+    .home-5.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .title{
+        color: #242424;
+    }
+    .navbar-area.bg-wite.home-5 .right-btn-wrapper{
+        display: none;
+    }
+    .navbar-area.bg-wite.home-5 .right-btn-wrapper.desktop-none{
+        display: block;
+    }
+    .promotional-banner-area .img-wrapper img {
+        width: 100%;
+    }
+
+    .promotional-banner-area {
+        margin-bottom: 20px;
+    }
+    .filter-ara-home-five{
+        padding-top: 50px;
+    }
+    .best-seller-two-filter-menu .nav-tabs .nav-item .nav-link {
+        padding: 15px 30px;
+    }
+    .surprise-area .surprise-inner .content-area .title {
+        font-size: 50px;
+        line-height: 57px;
+    }
+    .banner-area-home-5 .banner-image {
+        margin-bottom: 30px;
+    }
+
+    .banner-area-home-5 {
+        padding-bottom: 50px;
+    }
+    .navbar-area.home-6 .logo-wrapper.navbar-brand{
+        display: none;
+    }
+    .home-6.navbar-area {
+        top: 0;
+        height: 90px;
+    }
+    .home-6.navbar-area.bg-light-blue .navbar-collapse{
+        height: 0;
+        overflow: hidden;
+    }
+    .home-6.navbar-area.bg-light-blue .navbar-collapse.show{
+        height: fit-content;
+    }
+    .home-6.navbar-area .navbar-collapse {
+        position: absolute;
+        top: 65px;
+        background: #2A9CF5;
+        z-index: 9;
+        left: 0;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .home-6.navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item, .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item{
+        background-color: #2A9CF5;
+    }
+    .home-6.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container{
+        background-color: #2A9CF5;
+    }
+    .feature-area-home-6 .img-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .feature-area-home-6 {
+        padding-bottom: 50px;
+    }
+    .trending-seller-area .single-offer-item-tall {
+        display: inline-block;
+    }
+
+    .trending-seller-area .single-offer-item-tall .thumb img {
+        width: 100%;
+    }
+
+    .trending-seller-area .single-offer-banner {
+        display: inline-block;
+        float: right;
+    }
+    .feature-one-area.home-6 {
+        padding-bottom: 20px;
+    }
+    .about-content-area .video-btn {
+        top: 23%;
+    }
+    .about-content-area .left-content-area {
+        display: block;
+        position: initial;
+        flex-direction: unset;
+        min-height: 500px;
+    }
+    .counter-area .singloe-counter-item {
+        margin-bottom: 30px;
+    }
+    .counter-area {
+        padding: 112px 0 80px 0;
+    }
+    .about-bottom-content-area .single-about-bottom-item {
+        margin-bottom: 30px;
+    }
+
+    .about-bottom-content-area {
+        padding-bottom: 85px;
+    }
+    .our-story-area .single-our-story-item {
+        margin-bottom: 30px;
+    }
+
+    .our-story-area {
+        padding-bottom: 82px;
+    }
+    .category-content-area .right-content-area {
+        margin-top: 30px;
+    }
+    .cart-content-area .cart-content-inner .top-content table {
+        display: block;
+        overflow-y: scroll;
+    }
+
+    .cart-content-area .cart-content-inner .top-content table tbody tr td .qty {
+        min-width: 161px;
+        text-align: center;
+    }
+
+    .cart-content-area .cart-content-inner .top-content table tbody tr td .product-details {
+        width: 480px;
+    }
+    .cart-content-area .cart-content-inner .bottom-content .left-content-area {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .product-details-content-area .left-content-area {
+        margin-bottom: 30px;
+    }
+    .col-lg-6.padding-right-0 {
+        padding-left: 15px;
+        padding-right: 15px !important;
+    }
+    .signup-page-wrapper .left-content-area {
+        min-height: 500px;
+    }
+    .login-page-content-area .left-content-area{
+        padding-right: 0;
+    }
+    .signup-page-wrapper .or,.signup-page-wrapper:after {
+        display: none;
+    }
+    .signup-page-wrapper .right-contnet-area {
+        padding: 72px 80px 80px 80px;
+    }
+    .signup-page-wrapper .right-contnet-area .bottom-content .login-form .btn-wrapper .submit-btn {
+        width: 180px;
+    }
+    .sellers-product-content-area .seller-product-wrapper .sellers-product-inner .bottom-content table {
+        display: block;
+        overflow-y: scroll;
+    }
+
+    .sellers-product-content-area .seller-product-wrapper .sellers-product-inner .bottom-content table tbody tr td .single-product-item {
+        width: 220px;
+    }
+    .seller-dashboard-content-area .dashboard-content-wrapper .mini-card-wrapper .single-mini-card-item {
+        margin-bottom: 30px;
+    }
+
+    .seller-dashboard-content-area .dashboard-content-wrapper .panel-wrapper {
+        padding-top: 0;
+    }
+    .invoice-page-content-area .invoice-inner .bottom-content .body-content .total {
+        margin-right: 0;
+    }
+    .partner-logo-content .partner-logo-wrapper .partner-logos:nth-child(2) {
+        border-right: none;
+    }
+    .error-404-content-area .left-content-area .img-wrapper {
+        text-align: center;
+    }
+    .affiliate-link-content-area .left-content-area {
+        margin-bottom: 30px;
+    }
+
+    .counter-up-area .single-counter-up-item {
+        margin-bottom: 40px;
+    }
+
+    .counter-up-area {
+        padding-bottom: 80px;
+    }
+    .order-track-page-content .order-track-tab-nav .left-content .nav-tabs .nav-item .nav-link {
+        padding: 13px 10px;
+    }
+    .order-track-page-content .order-track-tab-nav .left-content .nav-tabs .nav-item:last-child .nav-link {
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .how-it-works-area .single-coin-box.blue:before,
+    .how-it-works-area .single-coin-box.blue:after,
+    .how-it-works-area .single-coin-box.red:before,
+    .how-it-works-area .single-coin-box.red:after,
+    .how-it-works-area .single-coin-box.yellow:after,
+    .how-it-works-area .single-coin-box.yellow:before,
+    .how-it-works-area .single-coin-box.green:before,
+    .how-it-works-area .single-coin-box.green:after{
+        display: none;
+    }
+    .how-it-works-area .single-coin-box {
+        padding: 40px 40px 30px 40px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .how-it-works-area {
+        padding: 113px 0 90px 0;
+    }
+    .blog-details-content .sidebar {
+        margin-top: 60px;
+    }
+
+    .blog-details-content {
+        padding-bottom: 80px;
+    }
+
+    .widget-area.tags .tags-list {
+        text-align: center;
+    }
+    .login-page-content-area .login-page-wrapper:after{
+        display: none;
+    }
+    .login-page-content-area .login-page-wrapper .or{
+        display: none;
+    }
+    .login-page-content-area .right-contnet-area{
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    .login-page-content-area .signup-page-wrapper .right-contnet-area {
+        padding-left: 80px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item{
+        background-color: #232B37;
+    }
+    .bg-orange.navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item{
+        background-color: #F45832;
+    }
+    .single-promotional-item.left-text.top-100 .img-wrapper {
+        height: 1048px;
+    }
+    .single-promotional-item.left-text.top-100 .img-wrapper  {
+        width: 100%;
+    }
+    .navbar-area.home-4 .logo-wrapper.navbar-brand .mobile-logo .fixed{
+        display: none;
+    }
+}
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+    .navbar-area.home-4 .logo-wrapper.navbar-brand .mobile-logo .fixed{
+        display: none;
+    }
+    .navbar-area .nav-container {
+        position: relative;
+    }
+    .navbar-area.nav-fixed {
+        padding: 20px 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        border: none;
+    }
+    .navbar-area.nav-fixed .navbar-collapse {
+        top:100px;
+    }
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 100px;
+        background: #232B37;
+        z-index: 9;
+        left: 0;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+        border: 0;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item,
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item {
+        color: #fff;
+        font-weight: 400;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        padding: 0;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item {
+        color: #fff;
+    }
+    .dropdown-item {
+        background: #232B37;
+        color: #fff;
+        border: 0;
+    }
+    .navbar-area {
+        top: 0;
+        height: 130px;
+    }
+
+    .logo-wrapper.navbar-brand {
+        padding-top: 0;
+    }
+
+    .logo-wrapper.navbar-brand {
+        padding-top: 0;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        line-height: 35px;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
+        border: none;
+    }
+    .navbar-area.nav-fixed .navbar-collapse {
+        top: 109px;
+    }
+    .home-6.navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item{
+        background-color: #2A9CF5;
+    }
+    .home-6.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container{
+        background-color: #2A9CF5;
+    }
+	.navbar-area.home-6 .logo-wrapper.navbar-brand{
+        display: none;
+    }
+    .home-6.navbar-area {
+        top: 0;
+        height: 90px;
+    }
+    .home-6.navbar-area.bg-light-blue .navbar-collapse{
+        height: 0;
+        overflow: hidden;
+    }
+    .home-6.navbar-area.bg-light-blue .navbar-collapse.show{
+        height: fit-content;
+    }
+    .home-6.navbar-area .navbar-collapse {
+        position: absolute;
+        top: 65px;
+        background: #2A9CF5;
+        z-index: 9;
+        left: 0;
+        width: 250px;
+        padding-left: 20px;
+    }
+	.home-5.navbar-area .navbar-collapse{
+        background-color: #fff;
+    }
+    .home-5.navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item{
+        background-color: #fff;
+        color: #737286;
+    }
+    .home-5.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container{
+        background-color: #fff;
+    }
+    .home-5.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .menga-menu-page-links li a{
+        color: #737286;
+    }
+    .home-5.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .title{
+        color: #242424;
+    }
+    .navbar-area.bg-wite.home-5 .right-btn-wrapper{
+        display: none;
+    }
+    .navbar-area.bg-wite.home-5 .right-btn-wrapper.desktop-none{
+        display: block;
+    }
+	.navbar-area.home-4.nav-fixed .logo-wrapper.navbar-brand .mobile-logo{
+        display: none;
+    }
+    .nav-fixed.home-4.navbar-area {
+        top: 0;
+        height: 90px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .nav-fixed.navbar-area.bg-wite.home-4 .navbar-collapse.show {
+        top: 82px;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-top: none;
+    }
+    .navbar-area.bg-wite.home-4.nav-fixed .navbar-collapse .navbar-nav .nav-item.active .nav-link,
+    .navbar-area.bg-wite.home-4.nav-fixed .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        color: #242424;
+    }
+	.home-4.navbar-area.nav-fixed {
+        background-color: #fff;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+	.desktop-none{
+        display: block;
+    }
+    .support-bar-two.bg-white.home-4,
+    .navbar-area.bg-wite.home-4 .right-btn-wrapper{
+        display: none;
+    }
+    .navbar-area.home-4 .logo-wrapper.navbar-brand .mobile-logo {
+        display: block;
+        padding-top: 20px;
+    }
+    .home-4.navbar-area {
+        top: 0;
+        height: 160px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .home-4.navbar-area .navbar-collapse{
+        background-color: #fff;
+        top: 145px;
+    }
+    .home-4.navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu .dropdown-item{
+        background-color: #fff;
+        color: #525252;
+    }
+
+    .home-4.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container{
+        background-color: #fff;
+    }
+    .home-4.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .title{
+        color: #242424;
+    }
+    .home-4.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .menga-menu-page-links li a{
+        color: #737286;
+    }
+    .navbar-area.bg-wite.home-4 .navbar-collapse{
+        height: 0;
+        overflow: hidden;
+        transition: height .5s ease;
+    }
+    .navbar-area.bg-wite.home-4 .navbar-collapse.show{
+       height: fit-content;
+    }
+    .navbar-area.bg-wite.home-4 .right-btn-wrapper.desktop-none{
+        display: block;
+    }
+    .home-4.navbar-area .nav-container {
+        padding-bottom: 20px;
+    }
+	.bg-orange.navbar-area .logo-wrapper.navbar-brand  {
+        display: none;
+    }
+    .bg-orange.navbar-area{
+        top: 0;
+        height: 90px;
+    }
+    .bg-orange.navbar-area .navbar-collapse{
+        top: 65px;
+        background: #F45832;
+    }
+    .bg-orange.navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container{
+        background: #F45832;
+    }
+    .bg-orange.navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-item{
+        background: #F45832;
+    }
+	.logo-wrapper.navbar-brand {
+        padding-top: 0;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu.show .mega-menu-wrapper {
+        position: initial;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container {
+        background-color: #232b37;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .title {
+        color: #fff;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns {
+        margin-bottom: 30px;
+    }
+
+    .navbar-area .navbar-collapse .navbar-nav .nav-item.mega-menu .mega-menu-wrapper .mega-menu-container .mega-menu-columns .menga-menu-page-links li a {
+        color: #e5e5e5;
+    }
+    .support-bar-area .left-content-area .language-picker .default,
+    .support-bar-area .left-content-area .currency-picker .default {
+        padding-bottom: 0;
+    }
+    .support-bar-area .left-content-area {
+        display: block;
+        text-align: center;
+    }
+    .support-bar-area .right-content-area {
+        display: block;
+        text-align: center;
+    }
+    .header-area .header-inner .title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .header-area .header-inner .subtitle {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .header-area .header-inner p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .header-area .header-inner .btn-wrapper .boxed-btn {
+        width: 200px;
+    }
+    .single-new-collection-item .thumb img{
+        width: 100%;
+    }
+    .ladies-cloths-area.ladies-cloths-bg {
+        background-position: left;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .title {
+        font-size: 65px;
+        line-height: 75px;
+        color: #fff;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content p{
+        color: #a0a0a0;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .subtitle {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .ladies-cloths-area {
+        z-index: 0;
+    }
+
+    .ladies-cloths-area:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        content: '';
+        z-index: -1;
+    }
+    .best-sellers-area .best-sellter-filter-menu .nav-tabs .nav-item .nav-link {
+        margin: 0 4px;
+        padding: 15px 25px;
+    }
+    .free-shipping-area .right-content-area {
+        float: none;
+        margin-left: 110px;
+    }
+
+    section.feature-one-area .single-featured-one-item {
+        margin-bottom: 40px;
+    }
+    .feature-one-area {
+        padding-bottom: 80px;
+    }
+    .promotional-area-one .single-promotional-item {
+        margin-bottom: 30px;
+    }
+    .promotional-area-one{
+        margin-bottom: 0;
+    }
+    .single-product-item-two .img-wrapper img {
+        width: 100%;
+    }
+    .support-bar-two .left-content {
+        text-align: center;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .support-bar-two .right-content {
+        text-align: center;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .header-area-three {
+        z-index: 0;
+    }
+
+    .header-area-three:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.3);
+        content: '';
+        z-index: -1;
+    }
+
+    .header-area-three .header-inner .title {
+        color: #fff;
+    }
+
+    .header-area-three .header-inner p {
+        color: #e5e5e5;
+    }
+
+    .header-area-three .header-inner .btn-wrapper .boxed-btn.blank {
+        color: #e5e5e5;
+    }
+    .process-area .single-process-item-one{
+        margin-bottom: 30px;
+    }
+    .process-area .single-process-item-one.border-left-none.border-right-none{
+        border: 2px solid #e5e5e5 !important;
+    }
+    .best-seller-two-filter-menu .nav-tabs .nav-item .nav-link {
+        padding: 15px 25px;
+    }
+    .banner-add-area .banner-inner-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .best-seller-area-five {
+        padding-top: 50px;
+    }
+    .footer-arae-one .footer-top-one .footer-widget {
+        margin-bottom: 40px;
+    }
+
+    .footer-arae-one .footer-top-one {
+        padding-bottom: 60px;
+    }
+    .promotional-banner-area-two .img-wrapper,
+    .promotional-banner-area-three .img-wrapper,
+    .promotional-banner-area-four .img-wrapper {
+        z-index: 0;
+    }
+
+    .promotional-banner-area-two .img-wrapper:after,
+    .promotional-banner-area-three .img-wrapper:after,
+    .promotional-banner-area-four .img-wrapper:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.3);
+        content: '';
+        z-index: 1;
+    }
+
+    .promotional-banner-area-two .img-wrapper .hover,
+    .promotional-banner-area-three .img-wrapper .hover,
+    .promotional-banner-area-four .img-wrapper .hover {
+        z-index: 2;
+    }
+    .promotional-banner-area-four .img-wrapper .hover{
+        right: 0;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .subtitle {
+        font-size: 16px;
+        color: #f4f4f4;
+        margin-bottom: 0;
+    }
+
+    .promotional-banner-area-four .img-wrapper .hover .title {
+        font-size: 80px;
+        line-height: 90px;
+        color: #fff;
+    }
+
+    .promotional-banner-area-four .img-wrapper .hover .btn-wrapper {
+        margin-top: 25px;
+    }
+
+    .promotional-banner-area-four .img-wrapper .hover .btn-wrapper .boxed-btn {
+        width: 180px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .filter-area-menu-home-four .nav-tabs .nav-item .nav-link{
+        margin: 0;
+    }
+    .filter-area-menu-home-four .nav-tabs{
+        padding: 0;
+        border: none;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .left .title {
+        font-size: 200px;
+    }
+
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .top {
+        font-size: 100px;
+    }
+
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .bottom {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right {
+        float: none;
+        top: -50px;
+    }
+
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .bottom-content {
+        margin-top: 10px;
+    }
+
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .bottom-content .title {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover {
+        background-color: rgba(0,0,0,.2);
+    }
+    .copyright-area .copyright-inner .left-content-area {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .copyright-area .copyright-inner .right-content-area {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .copyright-area .copyright-inner {
+        padding-top: 25px;
+    }
+    .navbar-area.bg-wite.home-5 .navbar-collapse{
+        height: 0;
+        transition: height .3s ease-in;
+        overflow: hidden;
+    }
+    .navbar-area.bg-wite.home-5 .navbar-collapse.show {
+        height: fit-content;
+    }
+    .home-5.navbar-area .navbar-collapse {
+        top: 116px;
+    }
+    .header-area-five .header-inner .title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .header-area-five {
+        z-index: 0;
+    }
+    .header-area-five:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        content: '';
+        z-index: -1;
+    }
+    .header-area-five .header-inner .title {
+        color: #fff;
+    }
+    .header-area-five .header-inner p {
+        color: #e5e5e5;
+    }
+    .best-seller-two-filter-menu.home-5 .nav-tabs .nav-item .nav-link {
+        padding: 15px 35px;
+        margin-bottom: 10px;
+    }
+    .surprise-area .surprise-inner .content-area .heart {
+        font-size: 90px;
+        line-height: 90px;
+        margin-bottom: 25px;
+    }
+    .surprise-area .surprise-inner .content-area .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .banner-area-home-5 .banner-image {
+        margin-bottom: 30px;
+    }
+
+    .banner-area-home-5 {
+        padding-bottom: 50px;
+    }
+    .best-seller-home-6-filter-menu-small .nav-tabs .nav-item .nav-link,
+    .best-seller-home-6-filter-menu ul li,
+    .home-six-trending-sellter-filter-nav .nav-tabs .nav-item .nav-link{
+        margin-bottom: 10px;
+    }
+    .feature-area-home-6 .img-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .feature-area-home-6 {
+        padding-bottom: 50px;
+    }
+    .trending-seller-area .single-offer-item-tall .thumb img{
+        width: 100%;
+    }
+    .trending-seller-area .single-offer-banner {
+        margin-bottom: 30px;
+    }
+    .counter-area .singloe-counter-item {
+        margin-bottom: 30px;
+    }
+
+    .counter-area {
+        padding-bottom: 80px;
+    }
+    .about-content-area .video-btn {
+        top: 23%;
+    }
+    .about-content-area .left-content-area {
+        min-height: 500px;
+    }
+    .about-bottom-content-area .single-about-bottom-item {
+        margin-bottom: 30px;
+    }
+    .about-bottom-content-area {
+        padding-bottom: 83px;
+    }
+    .our-story-area .single-our-story-item .thumb img{
+        width: 100%;
+    }
+    .our-story-area .single-our-story-item {
+        margin-bottom: 30px;
+    }
+    .our-story-area {
+        padding-bottom: 85px;
+    }
+    .category-content-area .right-content-area .top-content .left-conent {
+        display: block;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .category-content-area .right-content-area .top-content .right-content {
+        float: none;
+    }
+    .cart-content-area .cart-content-inner .top-content table {
+        display: block;
+    }
+
+    .cart-content-area .cart-content-inner .top-content table tbody tr td .product-details {
+        width: 460px;
+    }
+
+    .cart-content-area .cart-content-inner .top-content table tbody tr td .qty {
+        width: 170px;
+        display: block;
+        text-align: center;
+    }
+    .cart-content-area .cart-content-inner .bottom-content .left-content-area{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .breadcrumb-area .left-content-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .product-details-content-area .left-content-area .product-deails-thumb li img {
+        width: 100px;
+    }
+
+    .product-details-content-area .left-content-area .product-deails-thumb {
+        margin-bottom: 30px;
+    }
+    .product-details-content-area .right-content-area .bottom-content .title {
+        font-size: 28px;
+    }
+    .product-details-content-area .right-content-area .bottom-content .price-area .left {
+        font-size: 40px;
+    }
+    .product-details-tab-nav .nav.nav-tabs .nav-item .nav-link {
+        width: 145px;
+    }
+    .product-details-tab-nav .nav.nav-tabs .nav-item {
+        margin: 0 5px;
+    }
+    .login-page-content-area .signup-page-wrapper .left-content-area{
+        padding-right: 0;
+        min-height: 500px;
+    }
+    .col-lg-6.padding-right-0{
+        padding: 0 15px !important;
+    }
+    .signup-page-wrapper .or,
+    .signup-page-wrapper:after{
+        display: none;
+    }
+    .signup-page-wrapper .right-contnet-area {
+        padding: 60px 40px 60px 40px;
+    }
+    .sellers-product-content-area .seller-product-wrapper .sellers-product-inner .bottom-content table{
+        display: block;
+        overflow-y: scroll;
+    }
+    .sellers-product-content-area .seller-product-wrapper .sellers-product-inner .bottom-content table tbody tr td .single-product-item {
+        width: 250px;
+    }
+    .sellers-product-content-area .seller-product-wrapper .sellers-product-inner .bottom-content table tbody tr td .action {
+        width: 100px;
+    }
+    .breadcrumb-area .left-content-area .title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .seller-dashboard-content-area .dashboard-content-wrapper .mini-card-wrapper .single-mini-card-item {
+        margin-bottom: 30px;
+    }
+
+    .seller-dashboard-content-area .dashboard-content-wrapper .panel-wrapper {
+        padding-top: 0;
+    }
+    .invoice-page-content-area .invoice-inner .top-content .title {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .invoice-page-content-area .invoice-inner .top-content .subtitle {
+        font-size: 12px;
+    }
+    .invoice-page-content-area .invoice-inner .bottom-content .header-content .right-content {
+        float: none;
+        margin-top: 20px;
+    }
+
+    .invoice-page-content-area .invoice-inner .bottom-content .body-content .total {
+        margin-right: 0;
+    }
+    .section-title-two .title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .partner-logo-content .partner-logo-wrapper .partner-logos .single-logo-item {
+        border: 1px solid #e5e5e5;
+        margin-bottom: 30px;
+    }
+    .partner-logo-content {
+        padding-bottom: 90px;
+    }
+    .affiliate-link-content-area .left-content-area .bottom-content .top-content ul li .affliate-link .form-element .input-field {
+        width: 330px;
+    }
+    .affiliate-link-content-area .left-content-area .bottom-content .bottom-content ul li .boxed-btn{
+        width: 230px;
+        margin-bottom: 30px;
+    }
+    .counter-up-area .single-counter-up-item .content .count-number .count {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .counter-up-area .single-counter-up-item .icon {
+        margin-bottom: 20px;
+    }
+    .counter-up-area .single-counter-up-item {
+        margin-bottom: 40px;
+    }
+
+    .counter-up-area {
+        padding-bottom: 75px;
+    }
+    .faq-page-content-area .faq-search-wrapper {
+        padding: 50px 40px 60px 40px;
+    }
+    .faq-page-content-area .faq-search-wrapper .title {
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .order-track-page-content .track-order-form-wrapper .track-order-form .submit-btn {
+        width: 160px;
+    }
+    .order-track-page-content .track-order-form-wrapper {
+        padding: 52px 40px 60px 40px;
+    }
+    .order-track-page-content .order-track-tab-nav .right-content{
+        display: none;
+    }
+    .order-track-page-content .order-track-tab-nav .left-content{
+        border-radius: 0;
+    }
+    .order-track-page-content .order-track-tab-nav{
+        border: none;
+    }
+    .order-track-page-content .order-track-tab-nav .left-content .nav-tabs .nav-item:first-child .nav-link {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .order-track-page-content .order-track-tab-content .track-tab-content-inner table tbody tr td {
+        min-width: 180px;
+    }
+    .order-track-page-content .order-track-tab-content .track-tab-content-inner table {
+        display: block;
+    }
+    .how-it-works-area .single-coin-box{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .how-it-works-area .single-coin-box {
+        padding: 40px 40px 33px 40px;
+    }
+    .how-it-works-area .single-coin-box:before,
+    .how-it-works-area .single-coin-box:after{
+        display: none;
+    }
+    .how-it-works-area {
+        padding: 113px 0 87px 0;
+    }
+    .privacy-page-content-area .privacy-inner-content .single-text-block .title {
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+    .contact-info-area .left-content-area {
+        margin-bottom: 30px;
+    }
+    .blog-page-content-area .single-our-story-item .thumb img{
+        width: 100%;
+    }
+    .blog-page-content-area .single-our-story-item {
+        margin-bottom: 30px;
+    }
+
+    .blog-page-content-area {
+        padding-bottom: 85px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .top-content .right-content .title{
+        display: none;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content {
+        float: none;
+    }
+
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .right-content .title {
+        display: block;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .blog-details-content .sidebar {
+        padding-top: 60px;
+    }
+
+    .blog-details-content {
+        padding-bottom: 80px;
+    }
+
+    .widget-area.tags .tags-list {
+        text-align: center;
+    }
+    .login-page-content-area .login-page-wrapper .or,
+    .login-page-content-area .login-page-wrapper:after{
+        display: none;
+    }
+    .login-page-content-area .login-page-wrapper .left-content-area{
+        margin-bottom: 30px;
+    }
+    .login-page-content-area .right-contnet-area{
+        padding-left: 0;
+    }
+    .login-page-content-area .login-page-wrapper .left-content-area{
+        padding-right: 0;
+    }
+    .single-promotional-item.left-text.top-100 .img-wrapper {
+        height: 796px;
+    }
+}
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 599px) {
+
+   .navbar-area,
+   .navbar-area.nav-fixed {
+       padding: 20px;
+   }
+   .search-popup .search-popup-form{
+        min-width: 95%;
+   }
+   .header-area .header-inner .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .header-area {
+        padding: 130px 0 140px 0;
+    }
+    .header-area .header-inner p {
+        font-size: 16px;
+    }
+    .section-title .title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .section-title .subtitle {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .countdown-area ul li {
+        width: 80px;
+        height: 80px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .countdown-area ul li .single-countdown-box .day {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .title {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .subtitle {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .nav-tabs .nav-item{
+        margin-bottom: 10px;
+    }
+    .free-shipping-area .right-content-area {
+        margin-left: 0;
+    }
+    .header-area-two {
+        padding: 132px 0 140px 0;
+    }
+    .header-area-two .header-inner .title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .header-area-two .header-inner p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .header-area-two .header-inner .btn-wrapper .boxed-btn {
+        width: 195px;
+        margin: 0 5px;
+        margin-bottom: 20px;
+    }
+    .single-promotional-item .img-wrapper .hover{
+        right: 0;
+    }
+    .single-promotional-item .img-wrapper .hover .title {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .single-promotional-item .img-wrapper .hover .btn-wrapper .boxed-btn {
+        width: 130px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .single-promotional-item .img-wrapper .hover .subtitle{
+        margin-bottom: 0;
+    }
+    .single-promotional-item .img-wrapper:after {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .single-promotional-item.left-text .img-wrapper .hover {
+        left: 40px;
+        width: 100%;
+        padding-right: 80px;
+    }
+    .promotional-area-two.home-two .single-promotional-item {
+        margin-bottom: 30px;
+    }
+    .promotional-center-area{
+        margin-top: 0;
+    }
+    .promotional-area-two{
+        margin-bottom: 0;
+    }
+    .promotional-center-area .single-promotional-cetner-item .title {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 15px;
+    }
+    .promotional-center-area .single-promotional-cetner-item p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .promotional-center-area .single-promotional-cetner-item .btn-wrapper .boxed-btn {
+        width: 195px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .promotional-center-area .single-promotional-cetner-item .btn-wrapper .boxed-btn.blank{
+        margin: 0;
+        width: 195px;
+    }
+    .copyright-area-two .copyright-inner .right-content-area {
+        float: none;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .copyright-area-two .copyright-inner .right-content-area ul li{
+        margin-bottom: 10px;
+    }
+    .copyright-area-two .copyright-inner{
+        padding-bottom: 10px;
+    }
+    .process-area .single-process-item-one{
+        margin: 0 15px 30px 15px;
+    }
+    .best-seller-two-filter-menu:after{
+        display: none;
+    }
+    .copyright-area .copyright-inner .right-content-area ul li{
+        margin-bottom: 10px;
+    }
+    .copyright-area .copyright-inner{
+        padding-bottom: 20px;
+    }
+    .header-area-three .header-inner .title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .header-area-three .header-inner .subtitle {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .header-area-three .header-inner p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .header-area-three .header-inner .btn-wrapper .boxed-btn{
+        width: 200px;
+        margin: 0 5px;
+        margin-bottom: 20px;
+    }
+    .header-area-three .header-inner .btn-wrapper .boxed-btn.blank{
+        width: 160px;
+    }
+    .support-bar-two .right-content {
+       display: none;
+    }
+    .support-bar-two{
+        border: none;
+        padding-bottom: 0;
+    }
+    .support-bar-two .left-content{
+        margin-bottom: 0;
+    }
+    .promotional-banner-area-two .img-wrapper .hover .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .promotional-banner-area-two .img-wrapper .hover{
+        right: 0;
+        left: 0;
+    }
+    .promotional-banner-area-two .img-wrapper .hover .subtitle {
+        letter-spacing: 2px;
+    }
+    .promotional-banner-area-two .img-wrapper .hover p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .promotional-banner-area-two .img-wrapper .hover p{
+        width: 100%;
+    }
+    .promotional-banner-area-two .img-wrapper .hover .subtitle {
+        letter-spacing: 2px;
+        margin-bottom: 0;
+    }
+    .promotional-banner-area-two .img-wrapper .hover{
+        width: 414px;
+        padding: 30px;
+    }
+    .promotional-banner-area-two .img-wrapper .hover .btn-wrapper .boxed-btn{
+        letter-spacing: 0;
+        width: 180px;
+        height: 50px;
+        line-height: 50px;
+        letter-spacing: 1px;
+    }
+    .promotional-banner-area-two .img-wrapper {
+        height: 510px;
+    }
+    .promotional-banner-area-four .img-wrapper .hover{
+        width: 100%;
+        padding-left: 15px
+    }
+    .promotional-banner-area-four .img-wrapper .hover .title {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .promotional-banner-area-four .img-wrapper {
+        height: 440px;
+    }
+    .promotional-banner-area-three .img-wrapper .hover .title {
+        font-size: 70px;
+        line-height: 80px;
+        margin-bottom: 0;
+    }
+    .promotional-banner-area-three .img-wrapper .hover .subtitle {
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    .promotional-banner-area-three .img-wrapper {
+        height: 470px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .left .title {
+        font-size: 80px;
+        line-height: 75px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right {
+        top: 0px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .bottom{
+        position: initial;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .bottom {
+        font-size: 75px;
+        line-height: 50px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .top {
+        font-size: 80px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .bottom-content .title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .bottom-content {
+        margin-top: 0px;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .btn-wrapper .boxed-btn {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .header-area-five .header-inner .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .header-area-five .header-inner .subtitle {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+    .header-area-five .header-inner p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .header-area-five .header-inner .btn-wrapper .boxed-btn {
+        width: 214px;
+    }
+    .promotional-banner-area .img-wrapper .hover .hover-inner .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .promotional-banner-area.left .img-wrapper .hover {
+        left: 20px;
+    }
+    .promotional-banner-area .img-wrapper .hover .hover-inner .btn-wrapper .boxed-btn {
+        width: 130px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .promotional-banner-area.right .img-wrapper .hover {
+        left: auto;
+        right: 0;
+    }
+    .surprise-area .surprise-inner .video-thumb .hover .video-play-btn {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+    .surprise-area .surprise-inner .video-thumb .hover .video-play-btn:before {
+        width: 90px;
+        height: 90px;
+    }
+    .surprise-area .surprise-inner .content-area .heart {
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 25px;
+    }
+    .surprise-area .surprise-inner .content-area .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .trending-seller-area .single-offer-banner{
+        display: block;
+        text-align: center;
+    }
+    .single-offer-item-wide .content {
+        padding: 32px 30px 26px 30px;
+    }
+    .single-offer-item-wide .content .title {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .trending-seller-area .single-offer-item-tall .content .price .sprice {
+        font-size: 25px;
+    }
+    .single-offer-item-wide .content .price .sprice,
+    .single-offer-item-wide .content .price .dprice {
+        font-size: 25px;
+    }
+    .support-bar-two.home-6 .left-content{
+        margin-bottom: 25px;
+    }
+    .header-area .header-inner .btn-wrapper .boxed-btn.blank {
+        width: 155px;
+    }
+    .about-bottom-content-area .single-about-bottom-item .content .title {
+        font-size: 37px;
+        line-height: 50px;
+    }
+    .about-content-area .video-btn {
+        top: 16%;
+    }
+    .about-content-area .right-content-area {
+        padding: 114px 40px 120px 40px;
+    }
+    .about-content-area .right-content-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .about-content-area .right-content-area .subtitle {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 0px;
+        font-weight: 500;
+    }
+    .category-content-area .right-content-area .top-content:after{
+        display: none;
+    }
+    .category-content-area .right-content-area .top-content .right-content ul li {
+        margin-bottom: 10px;
+    }
+
+    .category-content-area .right-content-area .top-content .right-content ul {
+        text-align: center;
+    }
+    .cart-content-area .cart-content-inner .bottom-content .right-content-area .btn-wrapper .boxed-btn:first-child {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .cart-content-area .cart-content-inner .bottom-content .right-content-area .btn-wrapper .boxed-btn:last-child{
+        margin-left: 0;
+        width: 100%;
+    }
+    .cart-content-area .cart-content-inner .bottom-content .right-content-area .cart-total {
+        float: none;
+    }
+    .breadcrumb-area .right-content-area {
+        float: none;
+        margin-top: 0;
+        display: block;
+    }
+    .breadcrumb-area .right-content-area ul li:first-child{
+        margin-left:0;
+    }
+    .product-details-content-area .right-content-area .bottom-content .price-area .left {
+        font-size: 35px;
+    }
+    .product-details-content-area .right-content-area .bottom-content .price-area .right {
+        margin-top: 5px;
+    }
+    .product-details-tab-nav .nav.nav-tabs .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .product-details-tab-nav .nav.nav-tabs:after {
+        display: none;
+    }
+    .login-page-content-area .signup-page-wrapper .right-contnet-area {
+        padding-left: 40px;
+    }
+    .signup-page-wrapper .right-contnet-area .bottom-content .login-form .btn-wrapper .link {
+        float: none;
+    }
+    .seller-dashboard-table {
+        display: block;
+    }
+    .invoice-page-content-area .invoice-inner .bottom-content {
+        padding: 54px 30px 52px 30px;
+    }
+    .invoice-page-content-area .invoice-inner .bottom-content .body-content table tbody tr td .service {
+        width: 250px;
+    }
+    .invoice-page-content-area .invoice-inner .bottom-content .body-content .total {
+        float: none;
+    }
+    .invoice-page-content-area .invoice-inner .bottom-content .body-content table{
+        display: block;
+        overflow-y: scroll;
+    }
+    .invoice-page-content-area .invoice-inner .bottom-content .body-content table thead tr th {
+        min-width: 100px;
+    }
+    .invoice-page-content-area .invoice-inner .bottom-content .header-content .right-content{
+        width: 100%;
+    }
+    .invoice-page-content-area .invoice-inner .bottom-content .body-content {
+        padding-bottom: 0;
+    }
+    .partner-logo-content .partner-logo-wrapper {
+        padding: 0 15px;
+        border-top: none;
+    }
+    .partner-logo-content .partner-logo-wrapper .partner-logos{
+        border-right: none;
+    }
+    .error-404-content-area .right-content-area .title {
+        font-size: 175px;
+        line-height: 150px;
+    }
+    .error-404-content-area .right-content-area .details {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .error-404-content-area .right-content-area {
+        padding-top: 40px;
+    }
+    .affiliate-link-content-area .left-content-area .bottom-content .top-content ul li .affliate-link {
+        margin-bottom: 20px;
+    }
+    .affiliate-link-content-area .left-content-area .bottom-content .bottom-content ul li{
+        margin-left: 0;
+    }
+    .counter-up-area {
+        padding-top: 110px;
+    }
+    .how-it-works-area .single-coin-box {
+        padding-bottom: 23px;
+    }
+    .blog-details-content .single-blog-post .meta-time {
+        position: initial;
+        margin-bottom: 30px;
+    }
+    .blog-details-content .single-blog-post .details-container{
+        padding-left: 0px;
+    }
+    .login-page-content-area .login-page-wrapper {
+        padding: 72px 40px 80px 40px;
+    }
+    .login-page-content-area .left-content-area .bottom-content .left-content {
+        position: initial;
+        margin-bottom: 20px;
+    }
+
+    .login-page-content-area .left-content-area .bottom-content .right-content {
+        padding-left: 0;
+    }
+    .single-promotional-item.left-text.top-100 .img-wrapper {
+        height: 609px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .single-promotional-item.left-text.top-100 .img-wrapper {
+        height: 609px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .single-promotional-item.left-text.top-100 .img-wrapper {
+        height: 495px;
+    }
+    .coupon-code-wrapper .form-element {
+        width: 50%;
+    }
+    .coupon-code-wrapper button {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 450px){
+    .single-promotional-item.left-text.top-100 .img-wrapper {
+        height: 440px;
+    }
+}
+@media only screen and (max-width: 430px){
+    .navbar-area .right-btn-wrapper .boxed-btn{
+        display: none;
+    }
+    .about-content-area .video-btn {
+        top: 16%;
+    }
+    .about-content-area .right-content-area {
+        padding: 114px 40px 120px 40px;
+    }
+    .single-promotional-item.left-text.top-100 .img-wrapper {
+        height: auto;
+    }
+    .single-product-item-two {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .section-title p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px) {
+    .header-area .header-inner .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .header-area .header-inner .btn-wrapper .boxed-btn.blank,
+    .header-area .header-inner .btn-wrapper .boxed-btn:first-child{
+        width: 200px;
+        margin-left: 0;
+        margin-top: 20px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .header-area .header-inner .btn-wrapper .boxed-btn:first-child{
+        margin-top: 0;
+    }
+    .section-title .title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .countdown-area ul li {
+        margin: 0 1px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .subtitle {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .header-area-two .header-inner p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .header-area-two .header-inner .btn-wrapper .boxed-btn.blank{
+        width: 195px;
+    }
+    .header-area-two {
+        padding: 132px 0 120px 0;
+    }
+    .single-promotional-item .img-wrapper {
+        position: relative;
+        z-index: 0;
+        height: 380px;
+    }
+    .promotional-center-area {
+        padding: 135px 0 140px 0;
+    }
+    .copyright-area-two .copyright-inner {
+        text-align: center;
+    }
+    .header-area-three .header-inner .btn-wrapper .boxed-btn.blank{
+        width: 200px;
+    }
+    .header-area-five .header-inner .title {
+        font-size: 45px;
+        line-height: 54px;
+    }
+    .surprise-area .surprise-inner .content-area .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .header-area-three {
+        padding: 132px 0 120px 0;
+    }
+    .about-content-area .video-btn {
+        top: 18%;
+    }
+    .about-content-area .right-content-area .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .about-bottom-content-area .single-about-bottom-item .content .title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .invoice-page-content-area .invoice-inner .top-content {
+        padding: 54px 30px 52px 30px;
+    }
+    .invoice-page-content-area .invoice-inner .top-content .title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .footer-arae-one .footer-widget.about .widget-body .contact-info-list li .single-contact-info .content .details{
+        display: block;
+    }
+    .section-title-two .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .faq-page-content-area .faq-search-wrapper {
+        padding: 50px 30px 60px 30px;
+    }
+    .order-track-page-content .track-order-form-wrapper {
+        padding: 52px 30px 60px 30px;
+    }
+    .how-it-works-area .single-coin-box .icon {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        left: 30px;
+    }
+    .how-it-works-area .single-coin-box .content {
+        padding-left: 110px;
+    }
+    .how-it-works-area .single-coin-box {
+        padding: 40px 30px 33px 30px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .title {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .login-page-content-area .login-page-wrapper {
+        padding: 52px 30px 60px 30px;
+    }
+    .login-page-content-area .login-page-wrapper .top-content .title {
+        font-size: 27px;
+    }
+    .free-shipping-area .left-content-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .single-featured-one-item .inner-item .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .single-featured-one-item .inner-item .subtitle {
+        font-size: 14px;
+    }
+    .free-shipping-area .left-content-area .icon {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .best-seller-area-two{
+        margin-top: 0;
+    }
+    .promotional-banner-area-three .img-wrapper .hover .title {
+        font-size: 50px;
+        line-height: 58px;
+    }
+    .promotional-banner-area-three .img-wrapper .hover .subtitle {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .subtitle {
+        font-size: 14px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content{
+        text-align: center;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .bottom,
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .top,
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .left .title{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .bottom-content .title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .navbar-area.bg-wite.home-5 .logo-wrapper .logo img {
+        width: 120px;
+    }
+    .single-offer-item-wide .content .title {
+        font-size: 23px;
+        line-height: 32px;
+    }
+    .counter-area .singloe-counter-item .cunter-num .count-wrap {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .error-404-content-area .right-content-area .title {
+        font-size: 150px;
+        line-height: 125px;
+    }
+    .affiliate-link-content-area .left-content-area .title {
+        font-size: 35px;
+    }
+    .navbar-area.home-4 .logo-wrapper.navbar-brand .mobile-logo .mob {
+        width: 170px;
+        margin-bottom: 10px;
+    }
+}
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+    .header-area .header-inner .title {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .countdown-area ul li {
+        width: 75px;
+        height: 75px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .countdown-area ul li .single-countdown-box .day {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .countdown-area ul li .single-countdown-box .title {
+        font-size: 10px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .boxed-btn {
+        width: 200px;
+    }
+    .free-shipping-area .left-content-area .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .single-featured-one-item .inner-item .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .header-area-two .header-inner .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .header-area-two .header-inner .subtitle {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+    }
+    .header-area-two .header-inner p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .single-promotional-item.right-text .img-wrapper .hover {
+        padding-left: 30px;
+    }
+    .single-promotional-item.left-text .img-wrapper .hover{
+        padding-right: 30px;
+    }
+    .single-promotional-item.left-text.left-60 .img-wrapper .hover {
+        left: 30px;
+    }
+    .promotional-center-area .single-promotional-cetner-item .title {
+        font-size: 44px;
+        line-height: 55px;
+        margin-bottom: 10px;
+    }
+    .promotional-center-area .single-promotional-cetner-item .subtitle {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+    }
+    .header-area-three .header-inner .title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .title {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .header-area-five .header-inner .title {
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 0;
+    }
+    .promotional-banner-area .img-wrapper{
+        z-index: 0;
+    }
+    .promotional-banner-area .img-wrapper:after{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        content: '';
+        z-index: 1;
+    }
+    .promotional-banner-area .img-wrapper .hover {
+        width: 100%;
+        z-index: 2;
+    }
+    .promotional-banner-area.right .img-wrapper .hover{
+        left: 0px;
+        padding-left: 20px;
+    }
+    .promotional-banner-area .img-wrapper .hover .hover-inner .subtitle{
+        color: #fff;
+    }
+    .promotional-banner-area .img-wrapper .hover .hover-inner .title{
+        color: #fff;
+    }
+    .best-seller-two-filter-menu.home-5 .nav-tabs .nav-item .nav-link {
+        padding: 15px 25px;
+        margin-bottom: 10px;
+    }
+    .home-six-trending-sellter-filter-nav .nav-tabs .nav-item .nav-link {
+        margin: 0 5px;
+        padding: 15px 20px;
+    }
+    .best-seller-home-6-filter-menu ul li {
+        margin: 0 5px;
+        padding: 15px 25px;
+        margin-bottom: 10px;
+    }
+    .single-offer-item-wide .content .title {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .single-offer-item-wide .content .price .dprice {
+        font-size: 25px;
+    }
+    .best-seller-home-6-filter-menu-small .nav-tabs .nav-item .nav-link {
+        padding: 15px 25px;
+    }
+    .about-content-area .right-content-area .btn-wrapper .boxed-btn {
+        width: 200px;
+        font-size: 12px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .about-bottom-content-area .single-about-bottom-item .content .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .section-title .title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .our-story-area .single-our-story-item .conent .time {
+        font-size: 16px;
+    }
+    .category-content-area .right-content-area .top-content .right-content .select2-container{
+        width: 150px !important;
+    }
+    .category-content-area .right-content-area .top-content .right-content ul li {
+        display: inline-block;
+        margin: 0 1px;
+        margin-bottom: 10px;
+    }
+    .category-content-area .category-compare .btn-wrapper .boxed-btn{
+        height: 55px;
+        line-height: 55px;
+    }
+    .cart-content-area .cart-content-inner .bottom-content .left-content-area .coupon-code-wrapper .submit-btn {
+        width: 139px;
+        letter-spacing: 0px;
+    }
+    .product-details-content-area .left-content-area .product-deails-thumb li img {
+        width: 80px;
+    }
+    .product-details-content-area .right-content-area .bottom-content .cat {
+        font-size: 12px;
+    }
+    .product-details-content-area .right-content-area .bottom-content .title {
+        font-size: 25px;
+    }
+    .product-details-content-area .right-content-area .bottom-content .price-area .left {
+        font-size: 30px;
+    }
+    .product-details-content-area .right-content-area .bottom-content .product-spec{
+        width: 100%;
+    }
+    .product-details-content-area .right-content-area .bottom-content .paction .btn-wrapper .boxed-btn {
+        width: 200px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .product-details-area .title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .sellers-product-content-area .seller-product-wrapper .sellers-product-inner .top-content .left-content .boxed-btn {
+        width: 170px;
+        font-size: 12px;
+    }
+    .seller-dashboard-table thead tr th {
+        min-width: 100px;
+    }
+    .section-title-two .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .error-404-content-area .right-content-area .title {
+        font-size: 120px;
+        line-height: 100px;
+    }
+    .error-404-content-area .right-content-area .details {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .error-404-content-area .right-content-area .btn-wrapper .boxed-btn{
+        height: 55px;
+        line-height: 55px;
+    }
+    .faq-page-content-area .faq-search-wrapper .faq-search-form .submit-btn {
+        position: initial;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .order-track-page-content .track-order-form-wrapper .track-order-form .submit-btn {
+        position: initial;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .how-it-works-area .single-coin-box .icon {
+        position: initial;
+    }
+    .how-it-works-area .single-coin-box .content {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+    .contact-info-area .left-content-area .inner-section-title .title {
+        font-size: 35px;
+        line-height: 44px;
+    }
+    .blog-page-content-area .single-our-story-item .conent .time {
+        font-size: 16px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .left-content ul li a {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 8px 15px;
+    }
+    .login-page-content-area .left-content-area .bottom-content .right-content ul li a {
+        width: 200px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .login-page-content-area .right-contnet-area .bottom-content .login-form .btn-wrapper .link {
+        float: none;
+    }
+    .header-area .header-inner p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .footer-arae-one .footer-widget .widget-title .title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .cart-content-area .cart-content-inner .bottom-content .right-content-area .cart-total .title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .single-vendor-member .content .name {
+        font-size: 22px;
+        line-height: 31px;
+        margin-bottom: 0;
+    }
+    .affiliate-link-content-area .left-content-area .title {
+        font-size: 30px;
+    }
+    .counter-up-area .single-counter-up-item .content .count-number .count {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .counter-up-area .single-counter-up-item .icon {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .contact-info-area .left-content-area .inner-section-title .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+    .top-add-area{
+        display: none;
+    }
+    .header-area .header-inner .title {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .header-area .header-inner .subtitle {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .section-title .subtitle {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .countdown-area ul li {
+        width: 100px;
+        height: 100px;
+        margin: 0 10px;
+        margin-bottom: 20px;
+    }
+
+    .ladies-cloths-area .ladies-cloths-content-area .countdown-area ul li:nth-child(3){
+        margin-left: 0;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .countdown-area ul li .single-countdown-box .day {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .countdown-area ul li .single-countdown-box .title {
+        font-size: 12px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .title {
+        font-size: 43px;
+        line-height: 54px;
+    }
+    .single-featured-one-item .inner-item .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .single-featured-one-item .inner-item .subtitle {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .free-shipping-area .left-content-area .icon {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .free-shipping-area .right-content-area .btn-wrapper .boxed-btn {
+        width: 150px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .header-area-two .header-inner p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .single-promotional-item .img-wrapper {
+        position: relative;
+        z-index: 0;
+        height: 320px;
+    }
+    .single-promotional-item.right-text .img-wrapper .hover {
+        padding-left: 50px;
+    }
+    .single-promotional-item.left-text .img-wrapper.promotional-bg-5 .hover {
+        padding-right: 40px;
+    }
+    .single-promotional-item .img-wrapper .hover .title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .single-promotional-item.left-text.top-100 .img-wrapper .hover {
+        top: 80px;
+    }
+    .promotional-center-area .single-promotional-cetner-item .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .promotional-center-area .single-promotional-cetner-item p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .promotional-center-area .single-promotional-cetner-item .btn-wrapper .boxed-btn,
+    .header-area-three .header-inner .btn-wrapper .boxed-btn{
+        height: 50px;
+        line-height: 50px;
+    }
+    .promotional-center-area {
+        padding: 93px 0 103px 0;
+    }
+    .section-title p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .section-title.home-3 .subtitle{
+        margin-bottom: 0;
+    }
+    .promotional-banner-area-two .img-wrapper .hover {
+        width: 100%;
+        padding: 15px;
+    }
+    .promotional-banner-area-two .img-wrapper .hover .title {
+        font-size: 45px;
+        line-height: 54px;
+    }
+    .promotional-banner-area-three .img-wrapper .hover .title {
+        font-size: 60px;
+        line-height: 70px;
+        margin-bottom: 0;
+    }
+    .promotional-banner-area-three .img-wrapper .hover .subtitle {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .subtitle {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .btn-wrapper .boxed-btn.two{
+        margin: 0;
+    }
+    .promotional-banner-area-four .img-wrapper .hover .btn-wrapper .boxed-btn {
+        width: 130px;
+        height: 50px;
+        line-height: 50px;
+        letter-spacing: 0;
+    }
+    .promotional-banner-area-four .img-wrapper .hover {
+        top: 52%;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .left .title {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .top {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .bottom {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .bottom-content .title {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .header-area-five .header-inner .title {
+        font-size: 35px;
+        line-height: 45px;
+        letter-spacing: 0;
+    }
+    .header-area-five {
+        padding: 132px 0 140px 0;
+    }
+    .header-area-five .header-inner .btn-wrapper .boxed-btn {
+        width: 192px;
+        height: 55px;
+        line-height: 55px;
+        letter-spacing: 1px;
+        margin: 0;
+    }
+    .promotional-banner-area .img-wrapper .hover .hover-inner .btn-wrapper .boxed-btn {
+        width: 130px;
+        height: 45px;
+        line-height: 42px;
+    }
+    .best-seller-two-filter-menu.home-5 .nav-tabs .nav-item .nav-link {
+        padding: 15px 20px;
+    }
+    .surprise-area .surprise-inner .video-thumb .hover .video-play-btn {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .surprise-area .surprise-inner .video-thumb .hover .video-play-btn:before {
+        width: 70px;
+        height: 70px;
+    }
+    .surprise-area .surprise-inner .content-area .title {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .header-area-three .header-inner .btn-wrapper .boxed-btn.blank{
+        margin-left: 0;
+    }
+    .trending-seller-area .single-offer-item-tall .content .price .dprice {
+        font-size: 25px;
+    }
+    .single-offer-item-wide .content .title {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .single-featured-one-item .inner-item .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .single-featured-one-item .inner-item .subtitle {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .about-content-area .right-content-area {
+        padding: 114px 30px 120px 30px;
+    }
+    .about-content-area .right-content-area .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about-bottom-content-area .single-about-bottom-item .content .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .product-details-content-area .right-content-area .top-content .orders {
+        padding: 5px 10px;
+    }
+    .product-details-content-area .right-content-area .bottom-content .price-area .left {
+        font-size: 25px;
+    }
+    .product-details-content-area .right-content-area .bottom-content .price-area .right .size {
+        width: 120px;
+        letter-spacing: 1px;
+    }
+    .product-details-tab-nav .nav.nav-tabs .nav-item .nav-link {
+        width: 140px;
+    }
+    .product-details-area .title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .signup-page-wrapper .right-contnet-area {
+        padding: 60px 30px 60px 30px;
+    }
+    .invoice-page-content-area .invoice-inner .top-content .title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .invoice-page-content-area .invoice-inner .top-content {
+        padding: 54px 20px 52px 20px;
+    }
+    .section-title-two .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .section-title-two .subtitle {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .single-vendor-member .content .name {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .our-story-area .single-our-story-item .conent .title {
+        font-size: 21px;
+    }
+    .our-story-area .single-our-story-item .conent p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .affiliate-link-content-area .left-content-area .bottom-content .top-content ul li .affliate-link .form-element .input-field{
+        width: 100%;
+    }
+    .faq-page-content-area .faq-search-wrapper .title {
+        font-size: 21px;
+        line-height: 29px;
+    }
+    .faq-page-content-area .single-faq-item .content .title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .privacy-page-content-area .privacy-inner-content .single-text-block .title {
+        font-size: 20px;
+    }
+    .contact-info-area .left-content-area .inner-section-title .title {
+        font-size: 32px;
+        line-height: 41px;
+    }
+    .contact-info-area .left-content-area ul li .single-contact-info-item .content .title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .blog-page-content-area .single-our-story-item .conent .title {
+        font-size: 23px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-blockquote .icon {
+        display: none;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-blockquote .content{
+        padding-left: 20px;
+    }
+    .blog-details-content .single-blog-post .details-container .post-body .post-bottom-content .bottom-content .left-content ul li {
+        margin: 0 2px;
+    }
+    .blog-details-content .comments-area .single-comment-item .thumb {
+        position: initial;
+        margin-bottom: 30px;
+    }
+
+    .blog-details-content .comments-area .single-comment-item .content {
+        padding-left: 0;
+    }
+    .blog-details-content .comments-area .single-comment-item .reply-btn {
+        top: 32px;
+    }
+    .login-page-content-area .login-page-wrapper .top-content .title {
+        font-size: 22px;
+    }
+    .cart-sidebar-area ,
+    .slide-sidebar-area{
+        min-width: 300px;
+    }
+    .header-area .header-inner p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .free-shipping-area .left-content-area .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .free-shipping-area .left-content-area .icon {
+        font-size: 45px;
+        line-height: 42px;
+    }
+    .promotional-banner-area-three .img-wrapper .hover .title {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 0;
+    }
+    .promotional-banner-area-three .img-wrapper .hover .subtitle {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .bottom,
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .top,
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .left .title{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .bottom-content .title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .banner-area-home-5 {
+        padding-bottom: 90px;
+    }
+    .header-area-three.home-six {
+        padding: 140px 0 125px 0;
+    }
+    .product-details-content-area .right-content-area .bottom-content .price-area .left {
+        font-size: 21px;
+    }
+    .contact-info-area .left-content-area .inner-section-title .title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 330px) {
+    .header-area .header-inner .btn-wrapper .boxed-btn.blank, .header-area .header-inner .btn-wrapper .boxed-btn:first-child {
+        width: 200px;
+        margin-left: 0;
+        margin-top: 20px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .boxed-btn {
+        height: 55px;
+        line-height: 55px;
+    }
+    .header-area-two .header-inner .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .header-area-two .header-inner .btn-wrapper .boxed-btn {
+        height: 50px;
+        line-height: 50px;
+    }
+    .single-promotional-item.right-text .img-wrapper .hover {
+        padding-left: 70px;
+    }
+    .header-area-three .header-inner .title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .single-offer-item-wide .content {
+        padding: 32px 24px 26px 25px;
+    }
+    .single-rated-box-one .content {
+        padding: 20px 0 25px 140px;
+    }
+    .recently-added-area .recently-added-nav-menu ul li {
+        padding: 10px 15px;
+    }
+    .section-title .title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .cart-content-area .cart-content-inner .bottom-content .right-content-area .cart-total .cart-list li {
+        font-size: 14px;
+    }
+    .breadcrumb-area {
+        padding: 95px 0 100px 0;
+    }
+    .product-details-content-area .left-content-area .product-deails-thumb li img {
+        width: 75px;
+    }
+    .product-details-content-area .right-content-area .bottom-content .price-area .left {
+        font-size: 22px;
+    }
+    .product-details-content-area .right-content-area .bottom-content .price-area .right {
+        margin-top: 0;
+    }
+    .product-details-content-area .right-content-area .bottom-content .paction .activities li {
+        display: inline-block;
+        margin: 0 2px;
+    }
+    .signup-page-wrapper .right-contnet-area .bottom-content .login-form .block-link a{
+        letter-spacing: 0;
+    }
+    .error-404-content-area .right-content-area .title {
+        font-size: 100px;
+        line-height: 90px;
+    }
+    .order-track-page-content .track-order-form-wrapper .title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .breadcrumb-area.extra {
+        padding-bottom: 100px;
+    }
+    .widget-area {
+        padding: 0px 25px 0px 25px;
+    }
+    .widget-area.tags .tags-list {
+        text-align: left;
+    }
+    .footer-arae-one .footer-widget .widget-title .title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .header-area .header-inner p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .ladies-cloths-area .ladies-cloths-content-area .bottom-content .title {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .free-shipping-area .left-content-area .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .single-featured-one-item .inner-item .title {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .promotional-banner-area-three .img-wrapper .hover .title {
+        font-size: 40px;
+        line-height: 46px;
+        margin-bottom: 0;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .bottom, .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .right .top, .promotional-banner-area-six .img-wrapper .hover .hover-inner .top-content .left .title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .promotional-banner-area-six .img-wrapper .hover .hover-inner .bottom-content .title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .seller-dashboard-content-area .dashboard-content-wrapper .mini-card-wrapper .single-mini-card-item .title {
+        font-size: 18px;
+    }
+    .seller-dashboard-content-area .dashboard-content-wrapper .mini-card-wrapper .single-mini-card-item .counterup {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}

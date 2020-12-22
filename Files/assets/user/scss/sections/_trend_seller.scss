@@ -1,0 +1,177 @@
+/*----------------------------
+    Trend Seller area
+-----------------------------*/
+.single-offer-item-wide{
+    .thumb{
+        img{
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+        }
+    }
+    .content{
+        text-align: center;
+        padding: 32px 50px 26px 50px;
+        margin-bottom: 30px;
+        background-color: $white;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        .subtitle{
+            font-size: 14px;
+            color: #282828;
+            line-height: 24px;
+            font-family: $heading-font-2;
+        }
+        .title{
+            color: #282828;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 40px;
+            font-family: $heading-font-2;
+        }
+        .price{
+            .sprice{
+                font-size: 30px;
+                font-weight:400;
+                font-family: $heading-font-2;
+                color: $base-color;
+                margin-right: 15px;
+                line-height: 30px;
+            }
+            .dprice{
+                font-size: 30px;
+                font-weight: 400;
+                font-family: $heading-font-2;
+                color: #c0c0c0;
+                line-height: 30px;
+            }
+            margin-bottom: 24px;
+        }
+        .countdown-area{
+            margin: 10px 0 17px 0;
+            ul{
+                li{
+                    display: inline-block;
+                    width: 60px;
+                    height: 60px;
+                    margin: 0 2px;
+                    background-color: #282828;
+                    border-radius:6px;
+                    &:first-child{
+                        margin-left: 0;
+                    }
+                    .single-countdown-box{
+                        padding-top:7px;
+                        .time{
+                            color: $white;
+                            font-family: $heading-font-2;
+                            font-size: 26px;
+                            margin-bottom: 0;
+                            line-height: 30px;
+                            margin-bottom: 2px;
+                            display: block;
+                        }
+                        .name{
+                            color: #a6a6a6;
+                            font-size: 12px;
+                            line-height: 12px;
+                            display: block;
+                            text-transform: uppercase;
+                            font-family: $heading-font-2;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+.trending-seller-area{
+    padding-bottom: 50px;
+    &.home-6{
+        padding-bottom: 50px;
+    }
+    .single-offer-banner{
+        border-radius: 6px;
+        img{
+            border-radius: 6px;
+        }
+    }
+    .single-offer-item-tall{
+        .content{
+            border: 2px solid #e5e5e5;
+            border-top: none;
+            text-align: center;
+            padding: 25px 25px 18px 25px;
+            margin-bottom: 30px;
+            border-bottom-right-radius: 6px;
+            border-bottom-left-radius: 6px;
+            .subtitle{
+                font-size: 14px;
+                color: #282828;
+                line-height: 24px;
+                font-family: $heading-font-2;
+            }
+            .title{
+                color: #282828;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                font-family: $heading-font-2;
+            }
+            .price{
+                .sprice{
+                    font-size: 30px;
+                    font-weight: 500;
+                    font-family: $heading-font-2;
+                    color: $base-color;
+                    margin-right: 15px;
+                    line-height: 30px;
+                }
+                .dprice{
+                    font-size: 30px;
+                    font-weight: 400;
+                    font-family: $heading-font-2;
+                    color: #c0c0c0;
+                    line-height: 30px;
+                }
+            }
+            .countdown-area{
+                margin: 10px 0 17px 0;
+                ul{
+                    li{
+                        display: inline-block;
+                        width: 60px;
+                        height: 60px;
+                        margin: 0 2px;
+                        background-color: #282828;
+                        border-radius:6px;
+                        &:first-child{
+                            margin-left: 0;
+                        }
+                        .single-countdown-box{
+                            padding-top:7px;
+                            .time{
+                                color: $white;
+                                font-family: $heading-font-2;
+                                font-size: 26px;
+                                margin-bottom: 0;
+                                line-height: 30px;
+                                margin-bottom: 2px;
+                                display: block;
+                            }
+                            .name{
+                                color: #a6a6a6;
+                                font-size: 12px;
+                                line-height: 12px;
+                                display: block;
+                                text-transform: uppercase;
+                                font-family: $heading-font-2;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
